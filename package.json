@@ -1,0 +1,15 @@
+{
+  "name": "endatev",
+  "version": "1.0.0",
+  "description": "Projet de site vitrine Endatev",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Equipe Endatev (FR SE, Vincent, U...)",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
