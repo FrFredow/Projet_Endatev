@@ -1,0 +1,10 @@
+/* Carte Groupe AEN  CSS /
+
+/ 234 px => hauteur du header  + footer */
+#map {
+    height: calc(100vh - 234px);
+    min-height: 550px;
+    width: calc(100vw - 350px);
+    margin: 0;
+
+}
