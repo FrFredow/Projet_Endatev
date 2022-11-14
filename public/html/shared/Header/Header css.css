@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "FjallaOne-Regular";
+    src: url("FjallaOne-Regular.ttf") format("ttf"),
+   }
+
+   //reset CSS
+*{ 
+    margin: 0%;
+    padding: 0%;
+    font-family: "FjallaOne-Regular";
+}
+    //position de la menu bar 
+nav {
+    width: 100%;
+    margin: 50%;
+    background-color: white;
+    position: sticky;
+    top: 0%;
+}
+
+    //Apparence de la puce 
+nav ul{
+    list-style-type: none;
+}
+
+    // Position du texte contenu dans la puce 
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+    //Définition du tableau pour les sous catégories
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+    //rend solide le texte lors du passage de souris 
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #89d9d9;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+    //
+nav a:hover {
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+    //Définition des sous menus 
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #ccc;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+    //rend solide le sous menu 
+nav > ul li:hover .sous{
+    display: block;
+}
+
+    //Alignement des sous catégories
+.sous li{ 
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+
+    //# Supression de la bordure et remplacement par une marge et une couleur de fond lors du passage de la souris 
+.sous a { 
+    padding: 10px;
+    border-bottom: none;
+}
+
+    //#
+.sous a:hover{ 
+    border-bottom: none;
+    background-color: rgba(200, 200, 200,0,1);
+}
+
+    //Ajout d'un petit logos à côté du logo pour montrer qu'il est déroulant
+.deroulant > a::after{ 
+    content: " ▼";
+    font-size: 12px;
+}
+
