@@ -7,17 +7,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="\favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./../css/Accueil.css">
-    <link rel="stylesheet" href="./../../css/shared/footer.css">
+    <link rel="stylesheet" href="./../html/shared/Header/header.css">
+    <link rel="stylesheet" href="./../css/shared/footer.css">
 </head>
 
 <body>
     <header>
-        <img id="logo" src="./../html/shared/Header/logo-Endatev high res_prev.svg">
+        <div class="logo">
+            <img src="./../html/shared/Header/logo-Endatev high res_prev.svg" alt="logo">
+        </div>
+
+        <nav>
+            <ul>
+                <label for="toggle">☰</label>
+                <input type="checkbox" id="toggle">
+                <ul class="main_pages">
+
+                    <li class="deroulant"><a href="#">Solution</a>
+                        <ul class="sous">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+
+                    <li class="deroulant"><a href="#">Projets</a>
+                        <ul class="sous">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+
+                    <li class="deroulant"><a href="#">Newsletter</a>
+                        <ul class="sous">
+                            <li><a href="#">Presse</a></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+
+                    <li class="deroulant"><a href="#">Compagnie</a>
+                        <ul class="sous">
+                            <li><a href="#">Qui nous sommes ?</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Mention légal</a></li>
+                        </ul>
+                    </li>
+                </ul>
+        </nav>
     </header>
     <main>
-
     </main>
     <footer>
         <div>
@@ -29,20 +70,22 @@
                 <li><a href="./../Jobs.html">jobs</a></li>
             </ul>
         </div>
-    
-    
+
+
         <div>
             <h6>Contact</h6>
             contact
         </div>
-           
-    
+
+
         <div>
             <h6>coordonnées</h6>
-            <img src="./../Ressource/temp(contact)/GMaps.png" alt="image temporaire">
+            <img src="./../../Ressource/temp/GMaps.png" alt="image temporaire">
             <!-- placeholder -->
-            <div>156, avenue./</footer>
+            156, avenue./
+        </div>
     </footer>
 </body>
 
 </html>
+*

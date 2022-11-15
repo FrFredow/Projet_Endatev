@@ -9,8 +9,23 @@ body {
     height: 15%;
 }
 
-footer {
-    margin-bottom: 40%;
-    width: 30%;
-    height: 30%;
+main {
+    height: 35%;
 }
+
+footer {
+   width: 100%;
+   height: 10%;
+   bottom: 0%;
+}
+
+#google {
+    width: 60%;
+    height: 60%;
+}
+
+header {
+    height: 100%;
+    width: 10%;
+}
+

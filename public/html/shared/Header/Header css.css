@@ -3,7 +3,7 @@ label, #toggle
     display: none;
 }
  
-@media all and (max-width: 991px)
+@media screen and (max-width: 991px)
 {
     .logo img{
         width: 26%;

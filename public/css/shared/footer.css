@@ -14,7 +14,7 @@ footer {
     url(FjallaOne-Regular.ttf);
 }
 
-
+/* header ul > li != ul > il */
 ul>li {
 list-style-type: none;
 padding: 0;

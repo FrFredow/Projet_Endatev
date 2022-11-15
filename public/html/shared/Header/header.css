@@ -7,10 +7,35 @@ font-weight: bold;
    }
 
    /*reset CSS*/
-*{ 
+/* *{ 
     margin: 0%;
     padding: 0%;
 
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, footer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+header, footer{
+    border: 1px solid green;
+    color: white;
+}
+
+main{
+    flex: 1;
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
 }
 body{
     background-color: rgb(250, 250, 245);
@@ -118,5 +143,3 @@ nav > ul li:hover .sous{
     content: " ▼";
     font-size: 12px;
 }
-
-
