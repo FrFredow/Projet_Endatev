@@ -63,7 +63,7 @@ nav a{
     color: #025959;
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
-    font-size: 1.8em;
+    font-size: 1.7em;
     font-family: "FjallaOne-Regular", serif;
 }
 
@@ -118,4 +118,5 @@ nav > ul li:hover .sous{
     content: " ▼";
     font-size: 12px;
 }
+
 
