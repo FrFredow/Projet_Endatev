@@ -1,4 +1,4 @@
-label, #toggle
+/* label, #toggle
 {
     display: none;
 }
@@ -52,7 +52,7 @@ label, #toggle
     }
   
     /* Position du texte contenu dans la puce */
-  nav ul li{
+  /* nav ul li{
     float: right;
     width: 193%;
     text-align: right;
@@ -60,7 +60,7 @@ label, #toggle
   }
 
     /*rend solide le sous menu */
-nav > ul li:focus .sous{
+/* nav > ul li:focus .sous{
     display: block;
 }
-}
+} */
