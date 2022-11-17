@@ -4,26 +4,32 @@ footer   {
     color: #F2F2F2;
     background-color: #202020;
     font-family: "FjallaOne-Regular";
+    font-size: x-large;
 }
 
-
-footer>nav>a {
+footer > nav > div > a {
     color: white;
+    text-decoration: none;
 }
 
-footer>nav>a:hover    {
+footer> nav > div > a:hover    {
     color: #05A6A6;
 }
 
-footer>nav>a:active    {
+footer> nav > div > a:active    {
     color: #89D9D9;
 }
 
 footer>div>img {
     width: 60%;
     height: 50%;
-} /*placeholder */
+}
 
 footer>div,footer>nav {
-    margin: 10%;
+    margin: 5%;
+}
+
+footer > div > iframe {
+    width: 75%;
+    height: 75%;
 }
