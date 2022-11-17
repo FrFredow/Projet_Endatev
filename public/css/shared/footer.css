@@ -8,7 +8,7 @@ footer   {
 
 
 footer>nav>a {
-    color: white;
+    color: #F2F2F2;
 }
 
 footer>nav>a:hover    {
@@ -26,4 +26,5 @@ footer>div>img {
 
 footer>div,footer>nav {
     margin: 10%;
+    color: white;
 }
