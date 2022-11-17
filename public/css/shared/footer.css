@@ -4,27 +4,42 @@ footer   {
     color: #F2F2F2;
     background-color: #202020;
     font-family: "FjallaOne-Regular";
+    font-size: x-large;
 }
 
+footer nav {
+    background-color: #202020;
+    font-size: small;
+}
 
+<<<<<<< HEAD
 footer>nav>a {
     color: #F2F2F2;
+=======
+footer > nav > div > a {
+    color: white;
+    text-decoration: none;
+>>>>>>> 94372812238fc18599d9b30ef6e5fb0a31b02342
 }
 
-footer>nav>a:hover    {
+footer> nav > div > a:hover    {
     color: #05A6A6;
 }
 
-footer>nav>a:active    {
+footer> nav > div > a:active    {
     color: #89D9D9;
 }
 
-footer>div>img {
-    width: 60%;
-    height: 50%;
-} /*placeholder */
-
 footer>div,footer>nav {
+<<<<<<< HEAD
     margin: 10%;
     color: white;
+=======
+    margin: 5%;
+>>>>>>> 94372812238fc18599d9b30ef6e5fb0a31b02342
+}
+
+footer > div > iframe {
+    width: 75%;
+    height: 75%;
 }

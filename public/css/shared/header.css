@@ -51,7 +51,7 @@ body{
 }
 
     /*position de la menu bar*/ 
-nav {
+header > nav {
     width: 50%;
     margin-right: auto;
     margin-left: auto;
@@ -61,12 +61,12 @@ nav {
 }
 
     /*Apparence de la puce*/ 
-nav ul{
+header nav ul{
     list-style-type: none;
 }
 
     /* Position du texte contenu dans la puce */
-nav ul li{
+header nav ul li{
     float: left;
     width: 25%;
     text-align: center;
@@ -75,14 +75,14 @@ nav ul li{
 }
 
     /*Définition du tableau pour les sous catégories*/
-nav ul::after{
+header nav ul::after{
     content: "";
     display: table;
     clear: both;
 }
 
     /*rend solide le texte lors du passage de souris*/
-nav a{
+header nav a{
     display: block;
     text-decoration: none;
     color: #025959;
@@ -93,12 +93,12 @@ nav a{
 }
 
     /**/
-nav a:hover {
+ header nav a:hover {
     color: #05A6A6;
     border-bottom: 2px solid #05A6A6;
 }
 
-nav a:active{
+header nav a:active{
     color: #89D9D9
     ;
 }
@@ -160,7 +160,7 @@ label, #toggle
         z-index: 10;
     }
 
-    nav
+    header nav
     {
         height: 60px;
         float: right;
