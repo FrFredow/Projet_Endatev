@@ -1,5 +1,4 @@
 body {
-    background-color: white;
     margin: auto;
 }
 
@@ -13,19 +12,34 @@ main {
     height: 35%;
 }
 
-footer {
-   width: 100%;
-   height: 10%;
-   bottom: 0%;
-}
-
 #google {
     width: 60%;
     height: 60%;
 }
 
-header {
-    height: 100%;
-    width: 10%;
+.test{
+    width: 400px;
+    height: 400px;
+}
+
+#carrousel {
+width: 8%;
+height: 8%;
+border:solid 4px #FFF;
+box-shadow: 0 0 14px rgba(0,0,0,0,3);
+position: relative;
+}
+
+.bouton {
+    position: absolute;
+    
+}
+
+.d {
+
+}
+
+.g {
+
 }
 
