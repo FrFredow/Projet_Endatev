@@ -7,6 +7,11 @@ footer   {
     font-size: x-large;
 }
 
+footer nav {
+    background-color: #202020;
+    font-size: small;
+}
+
 footer > nav > div > a {
     color: white;
     text-decoration: none;
@@ -18,11 +23,6 @@ footer> nav > div > a:hover    {
 
 footer> nav > div > a:active    {
     color: #89D9D9;
-}
-
-footer>div>img {
-    width: 60%;
-    height: 50%;
 }
 
 footer>div,footer>nav {
