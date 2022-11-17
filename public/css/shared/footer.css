@@ -1,4 +1,4 @@
-footer   {
+#phooter   {
     display: flex;
     flex-direction: row;
     color: #F2F2F2;
@@ -7,29 +7,29 @@ footer   {
     font-size: x-large;
 }
 
-footer nav {
+#phooter nav {
     background-color: #202020;
     font-size: small;
 }
 
-footer > nav > div > a {
+#phooter > nav > div > a {
     color: white;
     text-decoration: none;
 }
 
-footer> nav > div > a:hover    {
+#phooter > nav > div > a:hover    {
     color: #05A6A6;
 }
 
-footer> nav > div > a:active    {
+#phooter > nav > div > a:active    {
     color: #89D9D9;
 }
 
-footer>div,footer>nav {
+#phooter > div, #phooter > nav {
     margin: 5%;
 }
 
-footer > div > iframe {
+#phooter > div > iframe {
     width: 75%;
     height: 75%;
 }
