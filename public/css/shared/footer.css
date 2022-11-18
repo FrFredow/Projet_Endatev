@@ -28,16 +28,9 @@ footer > nav > div > a {
 
 footer>div,footer>nav {
     margin: 5%;
->>>>>>> 94372812238fc18599d9b30ef6e5fb0a31b02342
 }
 
-<<<<<<< HEAD
-#phooter > div > iframe {
-    width: 25%;
-    height: 25%;
-=======
 .map {
     width: 75%;
     height: 75%;
->>>>>>> ea4649c (Header css resolve)
 }
