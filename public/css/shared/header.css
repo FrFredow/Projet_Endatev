@@ -2,7 +2,7 @@
     font-family: "FjallaOne-Regular";
     src: local("FjallaOne Regular"),
     local("FjallaOne-Regular"),
-    url(FjallaOne-Regular.ttf);
+    url(./../../Ressource/font/FjallaOne-Regular.ttf);
 font-weight: bold;
    }
 
@@ -25,7 +25,6 @@ body, footer{
 }
 
 header, footer{
-    border: 1px solid green;
     color: white;
 }
 
@@ -159,6 +158,10 @@ label, #toggle
         margin-top: 1%;
         z-index: 10;
     }
+    
+    header nav ul {
+        width: 90%;
+    }
 
     header nav
     {
@@ -174,10 +177,11 @@ label, #toggle
         flex-direction: column;
         background:  #F2F2F2;
         height: 50%;
+        width: 90%;
     }
  
     nav .main_pages a {
-        width: 90%;
+        width: 100%;
     }
  
     label 
@@ -198,7 +202,7 @@ label, #toggle
     }
   
     /* Position du texte contenu dans la puce */
-  nav ul li{
+  header nav ul li{
     float: right;
     width: 100%;
     text-align: right;
@@ -235,10 +239,88 @@ nav > ul li:focus .sous{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 3% auto;
-        margin-right: 25%;
+        margin: 5% auto;
+        margin-right: 5%;
         font-size: 300%;
         color: #025959;
         cursor: pointer;
     }
+}
+
+@media screen and (min-height: 1000px)
+{
+    .logo img{
+        width: 30%;
+        height: 10%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 1%;
+        z-index: 10;
+    }
+    
+    header nav ul {
+        width: 260%;
+    }
+
+    header nav
+    {
+        height: 60px;
+        float: right;
+        margin-right: -9%;
+        z-index: 100000000000;
+    }
+ 
+    nav .main_pages 
+    {
+        float: right;
+        flex-direction: column;
+        background:  #F2F2F2;
+        height: 50%;
+        width: 25%;
+        margin-right: 9%;
+    }
+ 
+    nav .main_pages a {
+        width: 100%;
+    }
+ 
+    label 
+    {
+        width: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4% auto;
+        margin-right: 10%;
+        font-size: 550%;
+        color: #025959;
+        cursor: pointer;
+    }
+ 
+    #toggle:checked + .main_pages {
+        display: flex;
+    }
+  
+    /* Position du texte contenu dans la puce */
+  header nav ul li{
+    float: right;
+    width: 100%;
+    text-align: right;
+    position: relative;
+  }
+
+    /*rend solide le sous menu */
+nav > ul li:focus .sous{
+    display: block;
+}
+
+header nav a{
+    display: block;
+    text-decoration: none;
+    color: #025959;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    font-size: 2.7em;
+    font-family: "FjallaOne-Regular", serif;
+}
 }
