@@ -9,13 +9,12 @@
 
 #phooter nav {
     background-color: #202020;
-    font-size: small;
+    font-size: x-large;
 }
 
 footer > nav > div > a {
     color: white;
     text-decoration: none;
->>>>>>> 94372812238fc18599d9b30ef6e5fb0a31b02342
 }
 
 #phooter > nav > div > a:hover    {
@@ -26,11 +25,11 @@ footer > nav > div > a {
     color: #89D9D9;
 }
 
-footer>div,footer>nav {
-    margin: 5%;
+#phooter > div,#phooter > nav {
+    margin: 10%;
 }
 
-.map {
+#phooter > div > div > iframe {
     width: 75%;
     height: 75%;
 }
