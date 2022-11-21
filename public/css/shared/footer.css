@@ -9,7 +9,7 @@
 
 #phooter nav {
     background-color: #202020;
-    font-size: small;
+    font-size: x-large;
 }
 
 footer > nav > div > a {
@@ -26,7 +26,7 @@ footer > nav > div > a {
 }
 
 #phooter > div,#phooter > nav {
-    margin: 5%;
+    margin: 10%;
 }
 
 #phooter > div > div > iframe {
