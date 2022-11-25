@@ -1,3 +1,17 @@
+
+h1 {
+  font-family: "FjallaOne-Regular";
+}
+
+hr  {
+  width: 92.5%;
+  margin-left: 0%;
+  background-color: #025959;
+  height: 0.1px;
+}
+
+/*Section numéro 1*/
+
 #sect1 > #Hnews {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -25,8 +39,13 @@
   margin: 6px;
 }
 
-#sect1 > #HSocmedia > img   {
-  width: 100%;
+#sect1 > #Socmedia > img {
+  width: 15%;
+  margin: 5%;
+}
+
+#sect1 > #Socmedia > h2   {
+  margin-left: 2%;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -40,7 +59,7 @@ main > #sect1 {
   flex-wrap: wrap;
 }
 
-
+/*Section numéro 2*/
 
 #sect2 > .card {
     /* Add shadows to create the "card" effect */
@@ -48,14 +67,6 @@ main > #sect1 {
     transition: 0.3s;
     width: 30%;
     margin: 6px;
-  }
-
-  hr  {
-    width: 92.5%;
-    margin-left: 0%;
-    background-color: #025959;
-    /* color: #05A6A6; */
-    height: 0.1px;
   }
 
   main > #sect2 {
