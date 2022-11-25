@@ -13,15 +13,6 @@
     
 }
 
-.d {
-
-}
-
-.g {
-
-}
-
-
 main ul li {
 	scroll-snap-align: center;
 	display: inline-block;
@@ -118,6 +109,18 @@ main ul li {
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     align-items: center;
+  }
+
+  .one {
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 2 / 3;
+    grid-row: 1;
+  }
+  .three {
+    grid-column: 3 / 3;
+    grid-row: 1;
   }
   
   @media only screen and (min-width: 600px) {

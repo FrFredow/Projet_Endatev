@@ -273,7 +273,23 @@ nav > ul li:focus .sous{
     }
 }
 
-@media screen and (max-width: 412px)
+@media screen and (min-width: 412px)
+{
+    label 
+    {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5% auto;
+        margin-right: 5%;
+        font-size: 300%;
+        color: #025959;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 395px)
 {
     label 
     {
