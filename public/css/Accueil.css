@@ -138,13 +138,36 @@ main ul li {
     }
   }
 
+  @media only screen and (max-device-width: 540px) and (orientation: portrait) {
+    .card {
+      margin: 12px 24px;
+      height: 180px;
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-device-width: 412px) and (orientation: portrait) {
+    .card {
+      margin: 10px 19px;
+      height: 180px;
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-device-width: 280px) and (orientation: portrait) {
+    .card {
+      margin: 7px 13px;
+      height: 130px;
+      width: 100%;
+    }
+  }
 
 @media screen and (min-height: 1000px)
 {
 
     .card {
       width:1000px;
-        margin-top:20px;
+        margin-top:35px;
         margin-bottom:20px;
         margin-left: 31%;
         margin-right: auto;
