@@ -1,0 +1,44 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    display:flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    align-items: center;
+  }
+
+  .card > img   {
+    height: 80px;
+}  
+
+/* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  main > div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    border-top: 2px solid #025959;
+    width: 92.5%;
+  }
+
+  hr  {
+    width: 92.5%;
+    margin-left: 0%;
+    background-color: #025959;
+    height: 2px;
+    border-style: none;
+  }
+  
+  main {
+    font-family: "FjallaOne-Regular";
+    margin-left: 5%;
+  }

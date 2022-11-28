@@ -1,13 +1,29 @@
 
-h1 {
-  font-family: "FjallaOne-Regular";
-}
-
 hr  {
   width: 92.5%;
   margin-left: 0%;
   background-color: #025959;
-  height: 0.1px;
+  height: 2px;
+  border-style: none;
+}
+
+main  {
+  font-family: "FjallaOne-Regular";
+  margin-left: 5%;
+}
+
+/* On mouse-over, add a deeper shadow */
+#sect1 > #Hnews:hover ,
+#sect1 > #Socmedia:hover,
+#sect2 > .card:hover  {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  width: 90%;
+  padding: 5px;
+  margin-left: 5px;
 }
 
 /*Section numéro 1*/
@@ -26,10 +42,6 @@ hr  {
   width: 100%;
 }
 
-/* On mouse-over, add a deeper shadow */
-#sect1 > #Hnews:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
 
 #sect1 > #Socmedia {
   /* Add shadows to create the "card" effect */
@@ -48,17 +60,6 @@ hr  {
   margin-left: 2%;
 }
 
-/* On mouse-over, add a deeper shadow */
-#sect1 > #Socmedia:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-main > #sect1 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
 /*Section numéro 2*/
 
 #sect2 > .card {
@@ -69,29 +70,17 @@ main > #sect1 {
     margin: 6px;
   }
 
-  main > #sect2 {
+  #sect2 > .card > img   {
+    width: 100%;
+  }
+
+  main > #sect2 , main > #sect1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
 
-  main  {
-    margin-left: 5%;
-  }
-
-  #sect2 > .card > img   {
-    width: 100%;
-  }
-
-  /* On mouse-over, add a deeper shadow */
-  #sect2 > .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-
-  /* Add some padding inside the card container */
-  .container {
-    /* padding: 2px 16px; */
-    width: 90%;
-    padding: 5px;
-    margin-left: 5px;
+  .card,#Socmedia,#Hnews {
+    border-bottom: 2px solid #025959;
+    background-color: #f2f2f2;
   }
