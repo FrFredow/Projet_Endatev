@@ -1,0 +1,43 @@
+main    {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 2%;
+    padding: 0;
+}
+
+hr  {
+    border-style: none;
+    background-color: #025959;
+    height: 2px;
+    width: 92.5%;
+    margin-left: 0%;
+    margin-bottom: 3%;
+    margin-top: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+section > aside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+
+section > aside > img {
+    width: 60%;
+}
+
+section > article {
+    position: relative;
+    left: -21%;
+    width: 40%;
+    margin-top: 3%;
+}
