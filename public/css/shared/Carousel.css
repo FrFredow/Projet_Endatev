@@ -3,7 +3,7 @@
   width: 99%;
   height: 800px;
   margin: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   background: #1D212B;
   overflow: hidden;
   z-index: -2;
@@ -57,7 +57,7 @@
   z-index: 2;
   position: absolute;
   display: flex;
-  bottom: -10%;
+  bottom: 0%;
   left: 50%;
   transform: translateX(-50%);
 }
