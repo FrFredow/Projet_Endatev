@@ -3,15 +3,15 @@ footer   {
     flex-direction: row;
     background-color: #202020;
     font-family: "FjallaOne-Regular";
+    width: 100%;
 }
 
 footer > nav {
     display: flex;
     flex-direction: column;
-    
     margin: 0%;
-    padding-left: 22%;
-    padding-right: auto;
+    padding-left: 15%;
+    padding-right: 10%;
     padding-top: 2%;
     padding-bottom: 2%;
 }
@@ -32,4 +32,95 @@ footer > div > a:active, footer > div > a:active    {
 footer > nav > iframe {
     width: 100%;
     height: 80%;
+}
+
+@media screen and (min-width: 360px) and (max-width: 420px)
+{
+    footer   {
+        display: flex;
+        flex-direction: row;
+        background-color: #202020;
+        font-family: "FjallaOne-Regular";
+        width: 109%;
+    }
+
+    footer > nav {
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        padding-left: 5%;
+        padding-right: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 50%;
+    }
+    
+    footer > nav > a    {
+        color: white;
+        font-size: medium;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 730px) and (max-width: 950px)
+{
+    footer   {
+        display: flex;
+        flex-direction: row;
+        background-color: #202020;
+        font-family: "FjallaOne-Regular";
+        width: 189%;
+        height: 100%;
+    }
+
+    footer > nav {
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        padding-left: 5%;
+        padding-right: 3%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        width: 80%;
+    }
+    
+    footer > nav > a    {
+        color: white;
+        font-size: xx-large;
+        text-decoration: none;
+    }
+    
+    footer > nav > iframe {
+        width: 100%;
+        height: 285px;
+    }
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 280px)
+{
+    footer   {
+        display: flex;
+        flex-direction: row;
+        background-color: #202020;
+        font-family: "FjallaOne-Regular";
+        width: 109%;
+    }
+
+    footer > nav {
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        padding-left: 5%;
+        padding-right: 3%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        width: 80%;
+    }
+    
+    footer > nav > a    {
+        color: white;
+        font-size: large;
+        text-decoration: none;
+    }
 }

@@ -143,9 +143,9 @@ main ul li {
 
   @media only screen and (max-device-width: 540px) and (orientation: portrait) {
     .card {
-      margin: 12px 24px;
+      margin: 14px 15px;
       height: 180px;
-      width: 100%;
+      width: 101%;
     }
   }
 
@@ -165,17 +165,6 @@ main ul li {
     }
   }
 
-@media screen and (min-height: 1000px)
-{
-
-    .card {
-      width:1000px;
-        margin-top:35px;
-        margin-bottom:20px;
-        margin-left: 31%;
-        margin-right: auto;
-      }
-}
 
 @media screen and (min-height: 1300px)
 {
