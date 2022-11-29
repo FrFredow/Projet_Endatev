@@ -225,22 +225,6 @@ nav > ul li:focus .sous{
 }
 }
 
-@media screen and (max-width: 912px)
-{
-    label 
-    {
-        width: 15%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 8% auto;
-        margin-right: 25%;
-        font-size: 510%;
-        color: #025959;
-        cursor: pointer;
-    }
-}
-
 @media screen and (max-width: 540px)
 {
     label 
@@ -257,7 +241,7 @@ nav > ul li:focus .sous{
     }
 }
 
-@media screen and (max-width: 280px)
+@media screen and (min-width: 200px) and (max-width: 280px)
 {
     label 
     {
@@ -265,31 +249,15 @@ nav > ul li:focus .sous{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: -2% auto;
-        margin-right: 5%;
-        font-size: 300%;
+        margin: 6% auto;
+        margin-right: 0%;
+        font-size: 210%;
         color: #025959;
         cursor: pointer;
     }
 }
 
-@media screen and (max-width: 412px)
-{
-    label 
-    {
-        width: 25%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 5% auto;
-        margin-right: 5%;
-        font-size: 300%;
-        color: #025959;
-        cursor: pointer;
-    }
-}
-
-@media screen and (max-width: 395px)
+@media screen and (min-width: 360px) and (max-width: 420px)
 {
     label 
     {
