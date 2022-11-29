@@ -33,6 +33,7 @@
   hr  {
     width: 92.5%;
     margin-left: 0%;
+    margin-bottom: 3%;
     background-color: #025959;
     height: 2px;
     border-style: none;
@@ -41,4 +42,57 @@
   main {
     font-family: "FjallaOne-Regular";
     margin-left: 5%;
+    margin-top: 2%;
   }
+  footer {
+    margin-top: 5%;
+  }
+
+  @media screen and (min-width: 360px) and (max-width: 420px)
+{
+  main {
+    font-family: "FjallaOne-Regular";
+    margin-left: 15%;
+  }
+  
+  hr  {
+    width: 92.5%;
+    margin-left: 0%;
+    margin-bottom: -1%;
+    background-color: #025959;
+    height: 2px;
+    border-style: none;
+  }
+}
+
+@media screen and (min-width: 730px) and (max-width: 950px)
+{
+  main {
+    font-family: "FjallaOne-Regular";
+    margin-left: 15%;
+  }
+  main > div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    border-top: 2px solid #025959;
+    width: 192.5%;
+  }
+  .card > img   {
+    height: 200px;
+  }  
+  hr  {
+    width: 192.5%;
+    margin-left: 0%;
+    background-color: #025959;
+    height: 2px;
+    border-style: none;
+  }
+  h1 {
+    font-size: xxx-large;
+  }
+  h2 {
+    font-size: xxx-large;
+  }
+}
