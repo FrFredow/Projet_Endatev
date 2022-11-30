@@ -120,19 +120,33 @@ main  {
 
 @media screen and (min-width: 730px) and (max-width: 950px)
 {
+
+  main  {
+    font-family: "FjallaOne-Regular";
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
   main > #sect1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 300%;
+    width: 190%;
   }
 
   main > #sect2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 257%;
+    width: 190%;
   }
+  #sect1>* { /*Define number of columm*/
+    flex: 1 1 160px;
+  }
+  #sect2>* {
+    flex: 1 auto;
+    }
 
   #sect1 > #Hnews {
     /* Add shadows to create the "card" effect */
@@ -142,6 +156,7 @@ main  {
     margin: 5px;
     height: 600px;
     overflow: hidden;
+    font-size: x-large;
   }
 
   #sect1 > #Socmedia {
@@ -150,6 +165,7 @@ main  {
     transition: 0.3s;
     width: 35%;
     margin: 6px;
+    font-size: x-large;
   }
   #sect2 > .card {
     /* Add shadows to create the "card" effect */
