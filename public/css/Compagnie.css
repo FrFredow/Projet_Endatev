@@ -1,4 +1,6 @@
+/* Mise en page globale de la page */
 main    {
+    font-family: "FjallaOne-Regular";
     margin-left: 5%;
     margin-top: 2%;
 }
@@ -19,6 +21,8 @@ hr  {
     margin-top: 0;
 }
 
+
+/* mise en page de la première partie de la page : partie qui sommes-nous */
 section {
     display: flex;
     flex-direction: row;
@@ -37,7 +41,62 @@ section > aside > img {
 
 section > article {
     position: relative;
-    left: -21%;
+    left: -16%;
     width: 40%;
     margin-top: 3%;
+}
+
+
+/* mise en page de la deuxième partie de la page : la partie formulaire */
+section > form ul  {
+    display: flex;
+    flex-direction: row;;
+}
+
+section ~ section {
+    margin-left: 5%;
+}
+
+section > form > #message > input {
+    display: flex;
+}
+
+section > form > div > input,
+section > form > div > textarea,
+section > form > input[type="submit"],
+section > form > input[type="reset"]    {
+    margin: 5px;
+    border: 2px solid #025959;
+    font-size: larger;
+}
+
+section ul {
+    position: relative;
+    font-size: larger;
+    list-style: none;
+    margin: 0%;
+}
+section > ul > li > a {
+    text-decoration: none;
+}
+section > ul > li > a:hover {
+    color: #05A6A6;
+}
+section > ul > li > a:active {
+    color: #89D9D9;
+}
+section > ul > li > a:visited {
+    color: black;
+}
+section > ul > hr {
+    border-style: none;
+    background-color: #025959;
+    height: 2px;
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 3%;
+    margin-top: 0;
+}
+section h3 {
+    margin: 0%;
 }

@@ -28,7 +28,36 @@
         <h1>Nous contacter</h1>
         <hr>
         <section>
+            <form action="mailto:v.duong@groupe-aen.info" method="post" name="Contact">
+                <div>
+                    <input type="text" name="Nom" id="Nom" placeholder="Nom" required>
+                    <input type="text" name="Prenom" id="Prenom" placeholder="Prénom" required>
+                </div>
 
+                <div>
+                    <input type="email" name="email" id="email" placeholder="Adresse email" required>
+                    <input type="tel" name="Mobile" id="Mobile" placeholder="Mobile">
+                </div>
+
+                <div id="message">
+                    <input type="text" name="Objet" id="Objet" placeholder="Objet" required>
+                    <textarea name="Message" id="Message" placeholder="Votre message" cols="30" rows="10"></textarea>
+                    <!-- <input type="text" name="message" id="message" placeholder="Votre message"> -->    
+                </div>
+
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Annuler">
+            </form>
+            
+            <ul>
+                <h3>Offres d'emploi</h3>
+                <hr>
+                <li>Ingenieur</li>
+                <li>Electricien</li>
+                <li>Plombier</li>
+                <li>Expert</li>
+                <li><a href="./Emploi.html">Voir Plus</a></li>
+            </ul>
         </section>
     </main>
     <footer></footer>
