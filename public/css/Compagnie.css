@@ -41,9 +41,10 @@ section > aside > img {
 
 section > article {
     position: relative;
-    left: -16%;
+    left: -12%;
     width: 40%;
-    margin-top: 3%;
+    margin-top: 1%;
+    font-size: x-large;
 }
 
 
@@ -75,6 +76,7 @@ section ul {
     font-size: larger;
     list-style: none;
     margin: 0%;
+    margin-left: 2%;
 }
 section > ul > li > a {
     text-decoration: none;
