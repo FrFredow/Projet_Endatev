@@ -1,16 +1,19 @@
 footer   {
     display: flex;
     flex-direction: row;
-    background-color: #202020;
+    background-color: #003a3a;
     font-family: "FjallaOne-Regular";
     width: 100%;
 }
+footer>* { /*Define number of columm*/
+    flex: 1 1 160px;
+  }
 
 footer > nav {
     display: flex;
     flex-direction: column;
     margin: 0%;
-    padding-left: 15%;
+    padding-left: 10%;
     padding-right: 10%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -29,10 +32,31 @@ footer > div > a:active, footer > div > a:active    {
     color: #89D9D9;
 }
 
+footer > nav > h1    {
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+
 footer > nav > iframe {
     width: 100%;
     height: 80%;
 }
+
+footer >nav > a > img {
+    width: 25%;
+    float: left;
+}
+
+footer > hr  {
+    width: 95%;
+    margin-left: -1%;
+    margin-top: -10%;
+    margin-bottom: 5%;
+    background-color: #F2F2F2;
+    height: 2px;
+    border-style: none;
+  }
 
 @media screen and (min-width: 360px) and (max-width: 420px)
 {
@@ -94,6 +118,8 @@ footer > nav > iframe {
         width: 100%;
         height: 285px;
     }
+
+
 
 }
 
