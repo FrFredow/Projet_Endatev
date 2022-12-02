@@ -1,21 +1,26 @@
 *,
 *::after,
-*::before {
+*::before { /*Définition de la page entière pour revenir à la normal après l'ouverture de la pop-up*/
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-main {
+main { /*Définition du main*/
     margin-top: 3%;
     margin-left: 3%;
+    /*Flex-box*/
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     font-family: "FjallaOne-Regular";
   }
 
-  
-hr  {
+h1 { /*Définition du titre*/
+  margin-left: 3%;
+  color: #025959 ;
+}
+
+hr  { /*Ligne en-dessous du titre*/
   width: 92.5%;
   margin-left: 2.5%;
   margin-bottom: 1%;
@@ -24,16 +29,12 @@ hr  {
   border-style: none;
 }
 
-h1 {
-  margin-left: 3%;
-  color: #025959 ;
-}
 
   a,
-  a:link {
+  a:link { /*Pop-up*/
     text-decoration: none;
   }
-  .container {
+  .container { /*Définition de la pop-up*/
     position: fixed;
     top: 0;
     left: 0;
@@ -44,10 +45,10 @@ h1 {
     width: 100%;
     height: 100%;
   }
-  .container:target {
+  .container:target { /*Flex de la pop-up*/
     display: flex;
   }
-  .modal {
+  .modal { /*Carte d'emplois*/
     width: 60rem;
     padding: 4rem 2rem;
     border-radius: .8rem;
@@ -57,27 +58,27 @@ h1 {
     position: relative;
     overflow: hidden;
   }
-  .details {
+  .details {  /*Définition du contenant de la pop-up*/
     text-align: center;
     margin-bottom: 4rem;
     padding-bottom: 4rem;
     border-bottom: 1px solid hsla(0, 0%, 100%, .4);
   }
-  .title {
+  .title { /*Titre dans la zone d'écriture de la pop-up*/ 
     font-size: 3.2rem;
   }
-  .description {
+  .description { /*Description dans la zone d'écriture de la pop-up*/ 
     margin-top: 2rem;
     font-size: 1.6rem;
     font-style: italic;
   }
-  .txt {
+  .txt { /*Texte dans la zone d'écriture de la pop-up*/ 
     padding: 0 4rem;
     margin-bottom: 4rem;
     font-size: 1.6rem;
     line-height: 2;
   }
-  .txt::before {
+  .txt::before { /*positon du texte avant dans la zone d'écriture de la pop-up*/ 
     content: '';
     position: absolute;
     top: 0%;
@@ -91,7 +92,7 @@ h1 {
     pointer-events: none;
   }
 
-  .btn {
+  .btn { /*Bouton en bas à droite dans la pop-up*/ 
     padding: 1rem 1.6rem;
     border: 1px solid hsla(0, 0%, 100%, .4);
     border-radius: 100rem;
@@ -104,12 +105,12 @@ h1 {
     cursor: pointer;
   }
   .btn:hover,
-  .btn:focus {
+  .btn:focus { /*Changement de couleurs lors du passage de la souris*/ 
     border-color: hsla(0, 0%, 100%, .6);
     -webkit-transform: translateY(-.2rem);
             transform: translateY(-.2rem);
   }
-  .link-1 {
+  .link-1 { /*Définition du bouton cliquable avce le nom de l'emplois*/ 
     font-size: 1.8rem;
     color: #025959;
     background-color: rgb(206, 206, 206);
@@ -121,11 +122,11 @@ h1 {
     margin-bottom: 0.5%;
   }
   .link-1:hover,
-  .link-1:focus {
+  .link-1:focus { /*Animation lorsque la souris passe dessus*/ 
     -webkit-transform: translateY(-.2rem);
             transform: translateY(-.2rem);
   }
-  .link-2 {
+  .link-2 { /*Renvoie sur la page lorsque la pop-up est fermée*/ 
     width: 4rem;
     height: 4rem;
     border: 1px solid hsla(0, 0%, 100%, .4);
@@ -141,13 +142,13 @@ h1 {
    
     transition: .2s;
   }
-  .link-2::before {
+  .link-2::before { /*Animation avant d'appuyer*/ 
     content: '×';
     -webkit-transform: translateY(-.1rem);
             transform: translateY(-.1rem);
   }
   .link-2:hover,
- .link-2:focus {
+ .link-2:focus { /*Animation lorsque la souris est dessus*/ 
     border-color: hsla(0, 0%, 100%, .6);
     -webkit-transform: translateY(-.2rem);
             transform: translateY(-.2rem);

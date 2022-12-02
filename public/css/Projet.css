@@ -1,5 +1,5 @@
 .card {
-    /* Add shadows to create the "card" effect */
+    /*Ajout d'ombre sur les cartes*/
     display:flex;
     flex-direction: row;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -7,11 +7,11 @@
     align-items: center;
   }
 
-  .card > img   {
+  .card > img   { /*Taille de l'image dans la carte*/
     height: 80px;
 }  
 
-/* On mouse-over, add a deeper shadow */
+/*Quand la souris est dessus ajoute plus d'ombre*/
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
@@ -21,7 +21,7 @@
     padding: 2px 16px;
   }
 
-  main > div {
+  main > div { /*Définition des cartes (couleur, position et taille)*/
     display: flex;
     flex-direction: column;
     margin-top: 10px;
@@ -30,7 +30,7 @@
     width: 92.5%;
   }
 
-  hr  {
+  hr  { /*Position de la ligne en dessous du titre*/
     width: 92.5%;
     margin-left: 0%;
     margin-bottom: 3%;
@@ -39,16 +39,16 @@
     border-style: none;
   }
   
-  main {
+  main { /*Définition de la police et des marges sur le main*/
     font-family: "FjallaOne-Regular";
     margin-left: 5%;
     margin-top: 2%;
   }
-  footer {
+  footer { /*Ecartement entre le main et le footer*/
     margin-top: 5%;
   }
 
-  @media screen and (min-width: 360px) and (max-width: 420px)
+  @media screen and (min-width: 360px) and (max-width: 420px) /*Adaptation écran téléphone*/
 {
   main {
     font-family: "FjallaOne-Regular";
@@ -65,7 +65,7 @@
   }
 }
 
-@media screen and (min-width: 730px) and (max-width: 950px)
+@media screen and (min-width: 730px) and (max-width: 950px) /*Adaptation écran de tablette*/
 {
   main {
     font-family: "FjallaOne-Regular";

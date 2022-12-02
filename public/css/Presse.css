@@ -1,5 +1,5 @@
 
-hr  {
+hr  { /*Définition de la ligne sous le titre*/ 
   width: 95%;
   margin-left: 0%;
   margin-bottom: 1%;
@@ -8,14 +8,14 @@ hr  {
   border-style: none;
 }
 
-main  {
+main  { /*Définition de la police et des marges dans le main*/
   font-family: "FjallaOne-Regular";
   margin-left: 5%;
   margin-top: 3%;
   margin-bottom: 3%;
 }
 
-/* On mouse-over, add a deeper shadow */
+/* Quand la souris passe dessus renforce les ombrages*/
 #sect1 > #Hnews:hover ,
 #sect1 > #Socmedia:hover,
 #sect2 > .card:hover  {
@@ -32,7 +32,7 @@ main  {
 /*Section numéro 1*/
 
 #sect1 > #Hnews {
-  /* Add shadows to create the "card" effect */
+  /* Ajout d'ombres sur la carte*/
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 61%;
@@ -41,57 +41,57 @@ main  {
   overflow: hidden;
 }
 
-#sect1 > #Hnews > img   {
+#sect1 > #Hnews > img   { /*Taille de l'image dans la première carte*/
   width: 100%;
 }
 
 
 #sect1 > #Socmedia {
-  /* Add shadows to create the "card" effect */
+  /* Ajout d'ombres sur la carte*/
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 30%;
   margin: 6px;
 }
 
-#sect1 > #Socmedia > img {
+#sect1 > #Socmedia > img { /*Taille de l'image dans la deuxième carte*/
   width: 15%;
   margin: 5%;
 }
 
-#sect1 > #Socmedia > h2   {
+#sect1 > #Socmedia > h2   { /*Marge du titre de l'article*/
   margin-left: 2%;
 }
 
 /*Section numéro 2*/
 
 #sect2 > .card {
-    /* Add shadows to create the "card" effect */
+    /* Ajout d'ombres sur les cartes*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 30%;
     margin: 6px;
   }
 
-  #sect2 > .card > img   {
+  #sect2 > .card > img   { /*Taille de l'images sur les cartes*/
     width: 100%;
   }
 
-  main > #sect2 , main > #sect1 {
+  main > #sect2 , main > #sect1 { /*Définition de la flex-box pour les sections*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
 
-  .card,#Socmedia,#Hnews {
+  .card,#Socmedia,#Hnews { /*Definition de la bordure du bas de toutes les cartes*/
     border-bottom: 2px solid #025959;
     background-color: #f2f2f2;
   }
 
-  @media screen and (min-width: 360px) and (max-width: 420px)
+  @media screen and (min-width: 360px) and (max-width: 420px) /*Adaptation pour écran de téléphone*/
 {
   #sect1 > #Socmedia {
-    /* Add shadows to create the "card" effect */
+    /* Ajout d'ombres sur la carte*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 100%;
@@ -99,7 +99,7 @@ main  {
   }
 
   #sect1 > #Hnews {
-    /* Add shadows to create the "card" effect */
+    /* Ajout d'ombres sur la carte*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 100%;
@@ -109,7 +109,7 @@ main  {
   }
 
   #sect2 > .card {
-    /* Add shadows to create the "card" effect */
+    /* Ajout d'ombres sur la carte*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 100%;
@@ -118,7 +118,7 @@ main  {
   
 }
 
-@media screen and (min-width: 730px) and (max-width: 950px)
+@media screen and (min-width: 730px) and (max-width: 950px) /*Adaptation pour écran de tablette*/
 {
 
   main  {
@@ -141,7 +141,7 @@ main  {
     flex-wrap: wrap;
     width: 190%;
   }
-  #sect1>* { /*Define number of columm*/
+  #sect1>* { /*Définition du nombre de colonne, taille de la flex box*/
     flex: 1 1 160px;
   }
   #sect2>* {
@@ -149,7 +149,7 @@ main  {
     }
 
   #sect1 > #Hnews {
-    /* Add shadows to create the "card" effect */
+    /* Ajout d'ombres sur la carte*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 30%;
@@ -160,7 +160,7 @@ main  {
   }
 
   #sect1 > #Socmedia {
-    /* Add shadows to create the "card" effect */
+    /* Ajout d'ombres sur la carte*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 35%;
@@ -168,7 +168,7 @@ main  {
     font-size: x-large;
   }
   #sect2 > .card {
-    /* Add shadows to create the "card" effect */
+    /* Ajout d'ombres sur la carte*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 38%;
