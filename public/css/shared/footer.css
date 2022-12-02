@@ -1,15 +1,16 @@
-footer   {
+footer   { /*Définition du footer (flex-box, couleur et police)*/ 
     display: flex;
     flex-direction: row;
     background-color: #003a3a;
     font-family: "FjallaOne-Regular";
     width: 100%;
+    margin-top: 5%;
 }
 footer>* { /*Define number of columm*/
     flex: 1 1 160px;
   }
 
-footer > nav {
+footer > nav { /*Position dans le footer des différentes parties*/ 
     display: flex;
     flex-direction: column;
     margin: 0%;
@@ -19,36 +20,36 @@ footer > nav {
     padding-bottom: 2%;
 }
 
-footer > nav > a    {
+footer > nav > a    { /*Définition des caractères dans le footer*/ 
     color: white;
     font-size: x-large;
     text-decoration: none;
 }
-footer > nav > a:hover, footer > div > a:hover    {
+footer > nav > a:hover, footer > div > a:hover    { /*Changement de couleur lors du passage de la souris*/ 
     color: #05A6A6;
 }
 
-footer > div > a:active, footer > div > a:active    {
+footer > div > a:active, footer > div > a:active    { /*Changement de couleur lors du clic*/ 
     color: #89D9D9;
 }
 
-footer > nav > h1    {
+footer > nav > h1    { /*Définition des titres des catégories*/ 
     color: white;
     font-size: x-large;
     text-decoration: none;
 }
 
-footer > nav > iframe {
+footer > nav > iframe { /*Taille de la mini-map*/ 
     width: 100%;
     height: 80%;
 }
 
-footer >nav > a > img {
+footer >nav > a > img { /*Mise een place de l'image linkedin*/ 
     width: 25%;
     float: left;
 }
 
-footer > nav >hr  {
+footer > nav >hr  { /*Définition du soulignage des titres des catégories*/ 
     width: 95%;
     margin-left: -1%;
     margin-top: 0%;
@@ -58,7 +59,7 @@ footer > nav >hr  {
     border-style: none;
   }
 
-@media screen and (min-width: 360px) and (max-width: 420px)
+@media screen and (min-width: 360px) and (max-width: 420px) /*Adaptation pour écran de téléphone*/ 
 {
     footer   {
         display: flex;
@@ -86,7 +87,7 @@ footer > nav >hr  {
     }
 }
 
-@media screen and (min-width: 730px) and (max-width: 950px)
+@media screen and (min-width: 730px) and (max-width: 950px) /*Adaptation pour écran de tablette*/ 
 {
     footer   {
         display: flex;
@@ -123,7 +124,7 @@ footer > nav >hr  {
 
 }
 
-@media screen and (min-width: 200px) and (max-width: 280px)
+@media screen and (min-width: 200px) and (max-width: 280px) /*Adaptation pour petit téléphone (galaxy fold)*/ 
 {
     footer   {
         display: flex;

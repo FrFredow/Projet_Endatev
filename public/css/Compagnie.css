@@ -45,6 +45,7 @@ section > article {
     width: 40%;
     margin-top: 1%;
     font-size: x-large;
+    z-index: -2;
 }
 
 

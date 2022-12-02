@@ -1,4 +1,4 @@
-.img-slider{
+.img-slider{ /*Définiton du carousel (position, couleur)*/ 
   position: relative;
   width: 99%;
   height: 800px;
@@ -10,33 +10,33 @@
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.61);
 }
 
-.img-slider .slide{
+.img-slider .slide{ /*Animation pour le changement d'image*/ 
   z-index: 1;
   position: absolute;
   width: 100%;
   clip-path: circle(0% at 0 50%);
 }
 
-.img-slider .slide.active{
+.img-slider .slide.active{ /*Animation pour le changement d'image*/ 
   clip-path: circle(150% at 0 50%);
   transition: 2s;
   transition-property: clip-path;
 }
 
-.img-slider .slide img{
+.img-slider .slide img{ /*Animation pour le changement d'image*/ 
   z-index: 1;
   border-radius: 5px;
   width: 100%;
   transform: translate(0%, -20%);
 }
 
-.img-slider .slide .info{
+.img-slider .slide .info{ /*Position de la zone d'écriture sur le carousel*/ 
   position: absolute;
   top: 0;
   padding: 15px 30px;
 }
 
-.img-slider .slide .info h2{
+.img-slider .slide .info h2{ /*Position du titre des catégories sur le carousel*/ 
   color: #fff;
   font-size: 45px;
   text-transform: uppercase;
@@ -44,7 +44,7 @@
   letter-spacing: 2px;
 }
 
-.img-slider .slide .info p{
+.img-slider .slide .info p{ /*Position du paragraphe sur le carousel*/ 
   color: #fff;
   background: rgba(0, 0, 0, 0.1);
   font-size: 16px;
@@ -53,7 +53,7 @@
   border-radius: 4px;
 }
 
-.navigation{
+.navigation{ /*Position des boutons pour naviguer sur les différentes images*/ 
   z-index: 2;
   position: absolute;
   display: flex;
