@@ -5,13 +5,13 @@ main    {
     margin-top: 2%;
 }
 
-h1 {
+h1 { /*Position du titre*/ 
     margin: 0;
     margin-top: 2%;
     padding: 0;
 }
 
-hr  {
+hr  { /*Position de la barre en dessous du titre*/ 
     border-style: none;
     background-color: #025959;
     height: 2px;
@@ -28,18 +28,18 @@ section {
     flex-direction: row;
 }
 
-section > aside {
+section > aside { /*Définition de la flex-box*/ 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin-left: 5%;
 }
 
-section > aside > img {
+section > aside > img { /*Taille de l'image*/ 
     width: 60%;
 }
 
-section > article {
+section > article { /*Définition de l'article qui sommes-nous (position, taille)*/ 
     position: relative;
     left: -12%;
     width: 40%;
@@ -66,32 +66,32 @@ section > form > #message > input {
 section > form > div > input,
 section > form > div > textarea,
 section > form > input[type="submit"],
-section > form > input[type="reset"]    {
+section > form > input[type="reset"]    { /*Mise en page des champs du formulaires*/ 
     margin: 5px;
     border: 2px solid #025959;
     font-size: larger;
 }
 
-section ul {
+section ul { /*liste d'offres d'emplois*/ 
     position: relative;
     font-size: larger;
     list-style: none;
     margin: 0%;
     margin-left: 10%;
 }
-section > ul > li > a {
+section > ul > li > a { 
     text-decoration: none;
 }
-section > ul > li > a:hover {
+section > ul > li > a:hover {  /*Changement de couleurs lorsque la souris est dessus*/ 
     color: #05A6A6;
 }
-section > ul > li > a:active {
+section > ul > li > a:active { /*Changement de couleurs lorsques le bouton est clique*/ 
     color: #89D9D9;
 }
-section > ul > li > a:visited {
+section > ul > li > a:visited { /*Couleurs normal une fois le lien clique*/ 
     color: black;
 }
-section > ul > hr {
+section > ul > hr { /*Définition de la ligne dans la section*/ 
     border-style: none;
     background-color: #025959;
     height: 2px;
@@ -100,6 +100,6 @@ section > ul > hr {
     margin-bottom: 3%;
     margin-top: 0;
 }
-section h3 {
+section h3 { /*Définition du titre de la liste d'offre d'emplois*/  
     margin: 0%;
 }

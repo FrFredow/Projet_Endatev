@@ -20,6 +20,7 @@ h1 { /*Définition du titre*/
   color: #025959 ;
 }
 
+
 hr  { /*Ligne en-dessous du titre*/
   width: 92.5%;
   margin-left: 2.5%;
@@ -153,3 +154,27 @@ hr  { /*Ligne en-dessous du titre*/
     -webkit-transform: translateY(-.2rem);
             transform: translateY(-.2rem);
   }
+
+  @media screen and (min-width: 360px) and (max-width: 420px) /*Adaptation écran de téléphone*/ 
+{
+  main {
+    margin-top: 5%;
+  }
+
+  .link-1 {
+    width: 100%;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 730px) and (max-width: 950px) /*Adaptation tablette*/ 
+{
+  main {
+    margin-top: 15%;
+    width: 185%;
+  }
+}

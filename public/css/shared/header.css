@@ -137,74 +137,7 @@ nav > ul li:hover .sous{
 label, #toggle
 {
     display: none;
-}
- 
-@media screen and (max-width: 991px) /*Définition de la mise en place du menu burger jusqu'à cette résolution*/
-{
-    .logo img{
-        width: 26%;
-        height: 10%;
-        float: left;
-        margin-left: 2%;
-        margin-top: 1%;
-        z-index: 10;
-    }
-    
-    header nav ul {
-        width: 90%;
-    }
-
-    header nav
-    {
-        height: 60px;
-        float: right;
-        margin-right: -9%;
-        z-index: 100000000000;
-    }
- 
-    nav .main_pages 
-    {
-        display: none;
-        flex-direction: column;
-        background:  #F2F2F2;
-        height: 50%;
-        width: 90%;
-    }
- 
-    nav .main_pages a {
-        width: 100%;
-    }
- 
-    label 
-    {
-        width: 15%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 7% auto;
-        margin-right: 25%;
-        font-size: 300%;
-        color: #025959;
-        cursor: pointer;
-    }
- 
-    #toggle:checked + .main_pages {
-        display: flex;
-    }
-  
-        /* Position du texte contenu dans la puce */
-    header nav ul li{
-        float: right;
-        width: 100%;
-        text-align: right;
-        position: relative;
-    }
-
-        /*rend solide le sous menu */
-    nav > ul li:focus .sous{
-        display: block;
-    }
-}
+} 
 
 @media screen and (max-width: 540px)
 {
@@ -224,6 +157,16 @@ label, #toggle
 
 @media screen and (min-width: 200px) and (max-width: 280px) /*Adaptation petit ecran */ 
 {
+
+    .logo img{
+        width: 26%;
+        height: 10%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 1%;
+        z-index: 10;
+    }
+
     label 
     {
         width: 25%;
@@ -246,10 +189,57 @@ label, #toggle
         font-size: 1.3em;
         font-family: "FjallaOne-Regular", serif;
     }
+
+    #toggle:checked + .main_pages {
+        display: flex;
+    }
+
+    nav .main_pages 
+    {
+        display: none;
+        flex-direction: column;
+        background:  #F2F2F2;
+        height: 50%;
+        width: 90%;
+    }
+
+    /* Position du texte contenu dans la puce */
+    header nav ul li{
+        float: right;
+        width: 100%;
+        text-align: right;
+        position: relative;
+    }
+        
+    /*rend solide le sous menu */
+    nav > ul li:focus .sous{
+        display: block;
+    }
+
+    header nav ul {
+        width: 90%;
+    }
+
+    header nav
+    {
+        height: 60px;
+        margin-right: -9%;
+        z-index: 10000;
+    }
+ 
 }
 
 @media screen and (min-width: 360px) and (max-width: 420px) /*Adaptation écran de téléphone*/ 
 {
+
+    .logo img{
+        width: 26%;
+        height: 10%;
+        float: left;
+        margin-left: 3%;
+        margin-top: -2%;
+        z-index: 10;
+    }
 
     label 
     {
@@ -274,6 +264,42 @@ label, #toggle
         font-size: 1.5em;
         font-family: "FjallaOne-Regular", serif;
     }
+
+    #toggle:checked + .main_pages {
+        display: flex;
+    }
+
+    nav .main_pages 
+    {
+        display: none;
+        flex-direction: column;
+        background:  #F2F2F2;
+        height: 50%;
+        width: 90%;
+    }
+
+        /* Position du texte contenu dans la puce */
+        header nav ul li{
+            float: right;
+            width: 100%;
+            text-align: right;
+            position: relative;
+        }
+            
+        /*rend solide le sous menu */
+        nav > ul li:focus .sous{
+            display: block;
+        }
+        header nav ul {
+            width: 90%;
+        }
+    
+        header nav
+        {
+            height: 60px;
+            margin-right: -9%;
+            z-index: 10000;
+        }
 }
 
 
@@ -283,8 +309,8 @@ label, #toggle
         width: 30%;
         height: 10%;
         float: left;
-        margin-left: 2%;
-        margin-top: 1%;
+        margin-left: 5%;
+        margin-top: -5%;
         z-index: 10;
     }
     
@@ -295,19 +321,8 @@ label, #toggle
     header nav
     {
         height: 60px;
-        float: right;
         margin-right: -9%;
         z-index: 100000000000;
-    }
- 
-    nav .main_pages 
-    {
-        float: right;
-        flex-direction: column;
-        background:  #F2F2F2;
-        height: 50%;
-        width: 25%;
-        margin-right: 9%;
     }
  
     nav .main_pages a {
@@ -352,5 +367,20 @@ label, #toggle
         padding: 10px 0px;
         font-size: 2.7em;
         font-family: "FjallaOne-Regular", serif;
+    }
+
+    #toggle:checked + .main_pages {
+        display: flex;
+    }
+
+    nav .main_pages 
+    {
+        display: none;
+        flex-direction: column;
+        background:  #F2F2F2;
+        height: 50%;
+        width: 25%;
+        float: right;
+        margin-right: 9%;
     }
 }

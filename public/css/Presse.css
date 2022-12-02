@@ -90,6 +90,9 @@ main  { /*Définition de la police et des marges dans le main*/
 
   @media screen and (min-width: 360px) and (max-width: 420px) /*Adaptation pour écran de téléphone*/
 {
+  #newsletter {
+    margin-top: 6%;
+  }
   #sect1 > #Socmedia {
     /* Ajout d'ombres sur la carte*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -120,6 +123,19 @@ main  { /*Définition de la police et des marges dans le main*/
 
 @media screen and (min-width: 730px) and (max-width: 950px) /*Adaptation pour écran de tablette*/
 {
+  #newsletter {
+    margin-top: 15%;
+    font-size: xxx-large;
+  }
+
+  hr  { /*Définition de la ligne sous le titre*/ 
+    width: 190%;
+    margin-left: 0%;
+    margin-bottom: 1%;
+    background-color: #025959;
+    height: 2px;
+    border-style: none;
+  }
 
   main  {
     font-family: "FjallaOne-Regular";
@@ -154,7 +170,7 @@ main  { /*Définition de la police et des marges dans le main*/
     transition: 0.3s;
     width: 30%;
     margin: 5px;
-    height: 600px;
+    height: 460px;
     overflow: hidden;
     font-size: x-large;
   }

@@ -50,6 +50,10 @@
 
   @media screen and (min-width: 360px) and (max-width: 420px) /*Adaptation écran téléphone*/
 {
+
+  #Archives { /*Recalibrage de l'écriture*/
+    margin-top: 10%;
+  }
   main {
     font-family: "FjallaOne-Regular";
     margin-left: 15%;
@@ -67,6 +71,9 @@
 
 @media screen and (min-width: 730px) and (max-width: 950px) /*Adaptation écran de tablette*/
 {
+  #Archives { /*Recalibrage de l'écriture*/
+    margin-top: 25%;
+  }
   main {
     font-family: "FjallaOne-Regular";
     margin-left: 15%;
