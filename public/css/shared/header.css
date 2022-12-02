@@ -3,8 +3,8 @@
     src: local("FjallaOne Regular"),
     local("FjallaOne-Regular"),
     url(./../../Ressource/font/FjallaOne-Regular.ttf);
-    font-weight: bold;
-}
+font-weight: bold;
+   }
 
    /*reset CSS*/
 * {
@@ -139,7 +139,7 @@ label, #toggle
     display: none;
 }
  
-@media screen and (min-width: 960px) and (max-width: 999px) /*Adaptation pour écran plus petit*/ 
+@media screen and (max-width: 991px) /*Définition de la mise en place du menu burger jusqu'à cette résolution*/
 {
     .logo img{
         width: 26%;
