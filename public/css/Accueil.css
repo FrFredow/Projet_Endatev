@@ -2,22 +2,72 @@ main {
   margin-top: 3%;
 }
 
+#sect2 { 
+  margin: 0%;
+  margin-top: 3%;
+}
 
 #sect2 > .card {
   /* Add shadows to create the "card" effect */
+  position: relative;
+  left: 20%;
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-size: larger;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 60%;
   margin: 6px;
 }
-
+#sect2 > .reversed {
+  /* Add shadows to create the "card" effect */
+  position: relative;
+  left: 20%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-size: larger;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 60%;
+  margin: 6px;
+}
 #sect2 > .card > img   {
   width: 25%;
 }
+#sect2 > .reversed > img   {
+  width: 25%;
+}
 
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  padding: 5%;
+  margin-left: 5%;
+}
+
+.reversed > .container > h3 {
+  position: relative;
+  left: 20%;
+}
+.card > .container > h3 {
+  position: relative;
+  left: 18%; 
+}
+
+.reversed > .container > h4 {
+  position: relative;
+  left: 0%;
+  width: 40%;
+}
+.card > .container > h4 {
+  position: relative;
+  left: 40%;
+  width: 40%; 
+}
 
 main ul li {
 	scroll-snap-align: center;
@@ -25,7 +75,6 @@ main ul li {
 	border-radius: 3px;
 	font-size: 0;
 }
-
 
 @media only screen and (min-width: 600px) {
   .card {
@@ -79,3 +128,5 @@ main ul li {
       margin-right: auto;
     }
 }
+
+

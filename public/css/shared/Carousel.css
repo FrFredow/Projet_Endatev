@@ -10,6 +10,10 @@
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.61);
 }
 
+.info {
+  color: #025959;
+}
+
 .img-slider .slide{ /*Animation pour le changement d'image*/ 
   z-index: 1;
   position: absolute;
