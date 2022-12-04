@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <title>Projet</title>
+        <title>Emploi</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="./../Ressource/Logo/logo-Endatev high res_prev.svg" />
-        <link rel="stylesheet" href="./../css/Projet.css">
+        <link rel="stylesheet" href="./../css/Emploi.css"> <!--Jobs.css -->
         <link rel="stylesheet" href="./../css/shared/header.css">
         <link rel="stylesheet" href="./../css/shared/footer.css">
+        <!-- Installation de leaflet -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
+        <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+        <script src="public/js/map.js" defer></script>
     </head>
     <body>
         <header>
@@ -59,40 +63,43 @@
             </nav>
         </header>
         <main>
-            <h1 id="Archives">Archives</h1>
+            <h1>Offres d'emploi</h1>
             <hr>
 
-            <div class="card">
-                <img src="https://picsum.photos/300/200?random=10" alt="articles">
-                <div class="container">
-                    <h2>Projet 1</h2>
+            <a href="#modal-opened" class="link-1" id="modal-closed">Électricien</a>
+ 
+        <div class="container" id="modal-opened">
+            <div class="modal">
+ 
+                <div class="details">
+                  <h1 class="title">Your Title</h1>
+                  <p class="description">Slogan will be here at this place.</p>
                 </div>
+             
+                <p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ex dicta maiores libero minus obcaecati iste optio, eius labore repellendus.</p>
+             
+                <button class="btn">Button &rarr;</button>
+             
+                <a href="#Header" class="link-2"></a>
             </div>
-            <div class="card">
-                <img src="https://picsum.photos/300/200?random=11" alt="articles">
-                <div class="container">
-                    <h2>Projet 2</h2>
+        </div>
+        
+        <a href="#modal-opened" class="link-1" id="modal-closed">Technicien Industriel</a>
+        <div class="container" id="modal-opened">
+            <div class="modal">
+ 
+                <div class="details">
+                  <h1 class="title">Your Title</h1>
+                  <p class="description">Slogan will be here at this place.</p>
                 </div>
+             
+                <p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ex dicta maiores libero minus obcaecati iste optio, eius labore repellendus.</p>
+             
+                <button class="btn">Button &rarr;</button>
+             
+                <a href="#Header" class="link-2"></a>
             </div>
-            <div class="card">
-                <img src="https://picsum.photos/300/200?random=17" alt="articles">
-                <div class="container">
-                    <h2>Projet 3</h2>
-                </div>
-            </div>
-            <div class="card">
-                <img src="https://picsum.photos/300/200?random=16" alt="articles">
-                <div class="container">
-                    <h2>Projet 4</h2>
-                </div>
-            </div>
-            <div class="card">
-                <img src="https://picsum.photos/300/200?random=15" alt="articles">
-                <div class="container">
-                    <h2>Projet 5</h2>
-                </div>
-            </div>
-            
+        </div>
         </main>
         <footer>
             <nav>

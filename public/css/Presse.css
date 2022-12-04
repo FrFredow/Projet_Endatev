@@ -1,42 +1,194 @@
-.card {
-    /* Add shadows to create the "card" effect */
+
+hr  { /*Définition de la ligne sous le titre*/ 
+  width: 95%;
+  margin-left: 0%;
+  margin-bottom: 1%;
+  background-color: #025959;
+  height: 2px;
+  border-style: none;
+}
+
+main  { /*Définition de la police et des marges dans le main*/
+  font-family: "FjallaOne-Regular";
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+/* Quand la souris passe dessus renforce les ombrages*/
+#sect1 > #Hnews:hover ,
+#sect1 > #Socmedia:hover,
+#sect2 > .card:hover  {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  width: 90%;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+/*Section numéro 1*/
+
+#sect1 > #Hnews {
+  /* Ajout d'ombres sur la carte*/
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 61%;
+  margin: 5px;
+  height: 400px;
+  overflow: hidden;
+}
+
+#sect1 > #Hnews > img   { /*Taille de l'image dans la première carte*/
+  width: 100%;
+}
+
+
+#sect1 > #Socmedia {
+  /* Ajout d'ombres sur la carte*/
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  margin: 6px;
+}
+
+#sect1 > #Socmedia > img { /*Taille de l'image dans la deuxième carte*/
+  width: 15%;
+  margin: 5%;
+}
+
+#sect1 > #Socmedia > h2   { /*Marge du titre de l'article*/
+  margin-left: 2%;
+}
+
+/*Section numéro 2*/
+
+#sect2 > .card {
+    /* Ajout d'ombres sur les cartes*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 30%;
-    margin: 5px;
+    margin: 6px;
   }
 
-  hr  {
-    width: 92.5%;
+  #sect2 > .card > img   { /*Taille de l'images sur les cartes*/
+    width: 100%;
+  }
+
+  main > #sect2 , main > #sect1 { /*Définition de la flex-box pour les sections*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card,#Socmedia,#Hnews { /*Definition de la bordure du bas de toutes les cartes*/
+    border-bottom: 2px solid #025959;
+    background-color: #f2f2f2;
+  }
+
+  @media screen and (min-width: 360px) and (max-width: 420px) /*Adaptation pour écran de téléphone*/
+{
+  #newsletter {
+    margin-top: 6%;
+  }
+  #sect1 > #Socmedia {
+    /* Ajout d'ombres sur la carte*/
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    margin: 6px;
+  }
+
+  #sect1 > #Hnews {
+    /* Ajout d'ombres sur la carte*/
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    margin: 5px;
+    height: 400px;
+    overflow: hidden;
+  }
+
+  #sect2 > .card {
+    /* Ajout d'ombres sur la carte*/
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    margin: 6px;
+  }
+  
+}
+
+@media screen and (min-width: 730px) and (max-width: 950px) /*Adaptation pour écran de tablette*/
+{
+  #newsletter {
+    margin-top: 15%;
+    font-size: xxx-large;
+  }
+
+  hr  { /*Définition de la ligne sous le titre*/ 
+    width: 190%;
     margin-left: 0%;
+    margin-bottom: 1%;
     background-color: #025959;
-    /* color: #05A6A6; */
-    height: 0.1px;
+    height: 2px;
+    border-style: none;
+  }
+
+  main  {
+    font-family: "FjallaOne-Regular";
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  main > #sect1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 190%;
   }
 
   main > #sect2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 190%;
+  }
+  #sect1>* { /*Définition du nombre de colonne, taille de la flex box*/
+    flex: 1 1 160px;
+  }
+  #sect2>* {
+    flex: 1 auto;
+    }
+
+  #sect1 > #Hnews {
+    /* Ajout d'ombres sur la carte*/
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    margin: 5px;
+    height: 460px;
+    overflow: hidden;
+    font-size: x-large;
   }
 
-  main  {
-    margin-left: 5%;
+  #sect1 > #Socmedia {
+    /* Ajout d'ombres sur la carte*/
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 35%;
+    margin: 6px;
+    font-size: x-large;
   }
-
- .card > img   {
-    width: 100%;
+  #sect2 > .card {
+    /* Ajout d'ombres sur la carte*/
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 38%;
+    margin: 6px;
   }
-
-  /* On mouse-over, add a deeper shadow */
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-
-  /* Add some padding inside the card container */
-  .container {
-    /* padding: 2px 16px; */
-    width: 90%;
-    padding: 5px;
-    margin: 0px;
-  }
+  
+}

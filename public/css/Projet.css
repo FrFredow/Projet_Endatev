@@ -1,0 +1,105 @@
+.card {
+    /*Ajout d'ombre sur les cartes*/
+    display:flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    align-items: center;
+  }
+
+  .card > img   { /*Taille de l'image dans la carte*/
+    height: 80px;
+}  
+
+/*Quand la souris est dessus ajoute plus d'ombre*/
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  main > div { /*Définition des cartes (couleur, position et taille)*/
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    border-top: 2px solid #025959;
+    width: 92.5%;
+  }
+
+  hr  { /*Position de la ligne en dessous du titre*/
+    width: 92.5%;
+    margin-left: 0%;
+    margin-bottom: 3%;
+    background-color: #025959;
+    height: 2px;
+    border-style: none;
+  }
+  
+  main { /*Définition de la police et des marges sur le main*/
+    font-family: "FjallaOne-Regular";
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  footer { /*Ecartement entre le main et le footer*/
+    margin-top: 5%;
+  }
+
+  @media screen and (min-width: 360px) and (max-width: 420px) /*Adaptation écran téléphone*/
+{
+
+  #Archives { /*Recalibrage de l'écriture*/
+    margin-top: 10%;
+  }
+  main {
+    font-family: "FjallaOne-Regular";
+    margin-left: 15%;
+  }
+  
+  hr  {
+    width: 92.5%;
+    margin-left: 0%;
+    margin-bottom: -1%;
+    background-color: #025959;
+    height: 2px;
+    border-style: none;
+  }
+}
+
+@media screen and (min-width: 730px) and (max-width: 950px) /*Adaptation écran de tablette*/
+{
+  #Archives { /*Recalibrage de l'écriture*/
+    margin-top: 25%;
+  }
+  main {
+    font-family: "FjallaOne-Regular";
+    margin-left: 15%;
+  }
+  main > div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    border-top: 2px solid #025959;
+    width: 192.5%;
+  }
+  .card > img   {
+    height: 200px;
+  }  
+  hr  {
+    width: 192.5%;
+    margin-left: 0%;
+    background-color: #025959;
+    height: 2px;
+    border-style: none;
+  }
+  h1 {
+    font-size: xxx-large;
+  }
+  h2 {
+    font-size: xxx-large;
+  }
+}
