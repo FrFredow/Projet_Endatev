@@ -72,6 +72,11 @@ section > form > input[type="reset"]    { /*Mise en page des champs du formulair
     font-size: larger;
 }
 
+section > form > input[type="submit"],
+section > form > input[type="reset"]    {
+    width: 17%;
+}
+
 section ul { /*liste d'offres d'emplois*/ 
     position: relative;
     font-size: larger;
@@ -81,6 +86,7 @@ section ul { /*liste d'offres d'emplois*/
 }
 section > ul > li > a { 
     text-decoration: none;
+    color: #025959;
 }
 section > ul > li > a:hover {  /*Changement de couleurs lorsque la souris est dessus*/ 
     color: #05A6A6;
@@ -89,7 +95,7 @@ section > ul > li > a:active { /*Changement de couleurs lorsques le bouton est c
     color: #89D9D9;
 }
 section > ul > li > a:visited { /*Couleurs normal une fois le lien clique*/ 
-    color: black;
+    color: #025959;
 }
 section > ul > hr { /*Définition de la ligne dans la section*/ 
     border-style: none;
