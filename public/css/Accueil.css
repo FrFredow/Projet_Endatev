@@ -19,6 +19,8 @@ main {
   transition: 0.3s;
   width: 60%;
   margin: 6px;
+  border-top: 2px solid #025959;
+  background-color: #F3F3F3F3;
 }
 #sect2 > .reversed {
   /* Add shadows to create the "card" effect */
@@ -32,12 +34,14 @@ main {
   transition: 0.3s;
   width: 60%;
   margin: 6px;
+  border-top: 2px solid #025959;
+  background-color: #F3F3F3F3;
 }
 #sect2 > .card > img   {
-  width: 25%;
+  width: 33%;
 }
 #sect2 > .reversed > img   {
-  width: 25%;
+  width: 33%;
 }
 
 .container {
@@ -45,17 +49,17 @@ main {
   flex-direction: row;
   align-items: center;
   width: 90%;
-  padding: 5%;
+  padding: 0%;
   margin-left: 5%;
 }
 
 .reversed > .container > h3 {
   position: relative;
-  left: 20%;
+  left: 22%;
 }
 .card > .container > h3 {
   position: relative;
-  left: 18%; 
+  left: 10%; 
 }
 
 .reversed > .container > h4 {
@@ -65,8 +69,54 @@ main {
 }
 .card > .container > h4 {
   position: relative;
-  left: 40%;
+  left: 35%;
   width: 40%; 
+}
+
+.card > .container > h4>a,
+.reversed > .container > h4>a  {
+  text-decoration: none;
+  color: black;
+}
+.card > .container > h4>a:active,
+.reversed > .container > h4>a:active  {
+color: #89D9D9;
+}
+.card > .container > h4>a:hover,
+.reversed > .container > h4>a:hover  {
+color: #05A6A6;
+}
+.card > .container > h3>a,
+.reversed > .container > h3>a  {
+  text-decoration: none;
+  color: black;
+}
+.card > .container > h3>a:active,
+.reversed > .container > h3>a:active  {
+color: #89D9D9;
+}
+.card > .container > h3>a:hover,
+.reversed > .container > h3>a:hover  {
+color: #05A6A6;
+}
+
+
+.reversed > .container > hr {
+  position: absolute;
+  left: 36%;
+  background-color: #025959;
+  width: 3px;
+  height: 5em;
+  border-style: none;
+}
+
+.card > .container > hr {
+  position: absolute;
+  left: 64%;
+  background-color: #025959;
+  width: 3.1px;
+  height: 5em;
+  border-style: none;
 }
 
 main ul li {
