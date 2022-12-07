@@ -103,3 +103,50 @@ section > ul > hr { /*Définition de la ligne dans la section*/
 section h3 { /*Définition du titre de la liste d'offre d'emplois*/  
     margin: 0%;
 }
+
+@media screen and (max-width: 540px)
+{
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 280px) /*Adaptation petit ecran */ 
+{
+   
+}
+
+@media screen and (min-width: 360px) and (max-width: 420px) /*Adaptation écran de téléphone*/ 
+{
+    main    {
+        font-family: "FjallaOne-Regular";
+        margin-left: 5%;
+        margin-top: 6%;
+    }
+
+    section > aside > img { /*Taille de l'image*/ 
+        width: 88%;
+    }
+
+    section > form ul  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section>* { /*Définition du nombre de colonne, taille de la flex box*/
+        flex: 1 1;
+      }
+
+      section > article { /*Définition de l'article qui sommes-nous (position, taille)*/ 
+        position: relative;
+        width: 100%;
+        margin-top: 3%;
+        font-size: x-large;
+        z-index: -2;
+    }
+    
+}
+
+
+@media screen and (min-width: 730px) and (max-width: 950px) /*Adaptation tablette*/ 
+{
+
+}
