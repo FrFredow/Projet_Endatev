@@ -111,7 +111,46 @@ section h3 { /*Définition du titre de la liste d'offre d'emplois*/
 
 @media screen and (min-width: 200px) and (max-width: 280px) /*Adaptation petit ecran */ 
 {
-   
+    main    {
+        font-family: "FjallaOne-Regular";
+        margin-left: 5%;
+        margin-top: 6%;
+    }
+    
+    h1 {
+        font-size: x-large;
+    }
+
+    section > aside > img { /*Taille de l'image*/ 
+        width: 88%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section > article { /*Définition de l'article qui sommes-nous (position, taille)*/ 
+        position: relative;
+        width: 100%;
+        left: 0%;
+        margin-top: 3%;
+        font-size: large;
+        z-index: -2;
+    }
+    
+    section ul { /*liste d'offres d'emplois*/ 
+        position: relative;
+        font-size: larger;
+        list-style: none;
+        margin: 0%;
+        margin-top: 5%;
+        margin-left: -4%;
+    }
+    
+    section > form {
+        margin-left: -7%;
+    }
 }
 
 @media screen and (min-width: 360px) and (max-width: 420px) /*Adaptation écran de téléphone*/ 
@@ -126,27 +165,97 @@ section h3 { /*Définition du titre de la liste d'offre d'emplois*/
         width: 88%;
     }
 
-    section > form ul  {
+    section {
         display: flex;
         flex-direction: column;
     }
 
-    section>* { /*Définition du nombre de colonne, taille de la flex box*/
-        flex: 1 1;
-      }
 
-      section > article { /*Définition de l'article qui sommes-nous (position, taille)*/ 
+    section > article { /*Définition de l'article qui sommes-nous (position, taille)*/ 
         position: relative;
         width: 100%;
+        left: 0%;
         margin-top: 3%;
         font-size: x-large;
         z-index: -2;
     }
     
+    section ul { /*liste d'offres d'emplois*/ 
+        position: relative;
+        font-size: larger;
+        list-style: none;
+        margin: 0%;
+        margin-top: 5%;
+        margin-left: -4%;
+    }
 }
 
 
 @media screen and (min-width: 730px) and (max-width: 950px) /*Adaptation tablette*/ 
 {
+    main    {
+        font-family: "FjallaOne-Regular";
+        margin-left: 5%;
+        margin-top: 15%;
+    }
 
+    section > aside > img { /*Taille de l'image*/ 
+        width: 400%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    section > article { /*Définition de l'article qui sommes-nous (position, taille)*/ 
+        position: relative;
+        width: 300%;
+        left: 70%;
+        margin-top: 3%;
+        font-size: 215%;
+        z-index: -2;
+    }
+    
+    section ul { /*liste d'offres d'emplois*/ 
+        position: relative;
+        font-size: larger;
+        list-style: none;
+        margin: 0%;
+        margin-top: 5%;
+        margin-left: -4%;
+    }
+
+    h1 {
+        font-size: 300%;
+    }
+
+    section > form > div > input,
+    section > form > div > textarea,
+    section > form > input[type="submit"],
+    section > form > input[type="reset"]    { /*Mise en page des champs du formulaires*/ 
+        margin: 5px;
+        border: 2px solid #025959;
+        font-size: xx-large;
+    }
+
+    section ul { /*liste d'offres d'emplois*/ 
+        position: relative;
+        font-size: xx-large;
+        list-style: none;
+        margin: 0%;
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+
+    hr  { /*Position de la barre en dessous du titre*/ 
+        border-style: none;
+        background-color: #025959;
+        height: 2px;
+        width: 180%;
+        margin-left: 0%;
+        margin-bottom: 3%;
+        margin-top: 0;
+    }
 }
