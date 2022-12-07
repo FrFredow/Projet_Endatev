@@ -84,7 +84,8 @@
   .img-slider{
     width: 100%;
     height: 200px;
-    margin-left: 4%;
+    margin-left: 5%;
+    margin-top: 0%;
   }
 
   .img-slider .slide .info{
@@ -101,8 +102,8 @@
   }
 
   .navigation{
-    bottom: 68%;
-    margin-left: 3%;
+    bottom: 56%;
+    margin-left: 5%;
   }
 }
 
@@ -111,6 +112,7 @@
     width: 181%;
     height: 600px;
     margin-left: 4%;
+    margin-top: 0%;
   }
 
   .img-slider .slide .info{
@@ -127,7 +129,7 @@
   }
 
   .navigation{
-    bottom: 24%;
+    bottom: 35%;
     margin-left: 45%;
   }
 }
@@ -138,6 +140,7 @@
     width: 101%;
     height: 290px;
     margin-left: 4%;
+    margin-top: 0%;
   }
 
   .img-slider .slide .info{
@@ -164,6 +167,7 @@
     width: 102%;
     height: 150px;
     margin-left: 4%;
+    margin-top: 0%;
   }
 
   .img-slider .slide .info{
