@@ -54,23 +54,23 @@ main {
 }
 
 .reversed > .container > h3 {
-  position: relative;
-  left: 22%;
+  position: absolute;
+  left: 45%;
 }
 .card > .container > h3 {
-  position: relative;
-  left: 10%; 
+  position: absolute;
+  left: 45%; 
 }
 
 .reversed > .container > h4 {
-  position: relative;
-  left: 0%;
-  width: 40%;
+  position: absolute;
+  left: 8%;
+  width: 25%;
 }
 .card > .container > h4 {
-  position: relative;
-  left: 35%;
-  width: 40%; 
+  position: absolute;
+  left: 71%;
+  width: 25%; 
 }
 
 .card > .container > h4>a,
