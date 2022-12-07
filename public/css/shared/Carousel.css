@@ -41,7 +41,8 @@
 }
 
 .img-slider .slide .info h2{ /*Position du titre des catégories sur le carousel*/ 
-  color: #fff;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.5);
   font-size: 45px;
   text-transform: uppercase;
   font-weight: 800;
@@ -49,12 +50,12 @@
 }
 
 .img-slider .slide .info p{ /*Position du paragraphe sur le carousel*/ 
-  color: #fff;
-  background: rgba(0, 0, 0, 0.1);
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.5);
   font-size: 16px;
-  width: 60%;
+  width: auto;
   padding: 10px;
-  border-radius: 4px;
+  /* border-radius: 4px; */
 }
 
 .navigation{ /*Position des boutons pour naviguer sur les différentes images*/ 
@@ -76,7 +77,7 @@
 }
  
 .navigation .btn.active{ /*Changement de couleur une fois un clic effectue*/ 
-  background: #2696E9;
+  background: #05A6A6;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
