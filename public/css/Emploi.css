@@ -177,14 +177,3 @@ hr  { /*Ligne en-dessous du titre*/
 
 }
 
-@media screen and (min-width: 730px) and (max-width: 950px) /*Adaptation tablette*/ 
-{
-  main {
-    margin-top: 15%;
-    width: 185%;
-  }
-
-  .container {
-    z-index: 10000;
-  }
-}
