@@ -229,7 +229,7 @@ label, #toggle
  
 }
 
-@media screen and (min-width: 360px) and (max-width: 420px) /*Adaptation écran de téléphone*/ 
+@media screen and (min-width: 360px) and (max-width: 600px) /*Adaptation écran de téléphone*/ 
 {
 
     .logo img{
@@ -248,7 +248,7 @@ label, #toggle
         justify-content: center;
         align-items: center;
         margin: 5% auto;
-        margin-right: 5%;
+        margin-right: -5%;
         font-size: 300%;
         color: #025959;
         cursor: pointer;
@@ -297,10 +297,11 @@ label, #toggle
         header nav
         {
             height: 60px;
-            margin-right: -9%;
+            margin-right: 0%;
             z-index: 10000;
         }
 }
+
 
 
 @media screen and (min-width: 730px) and (max-width: 950px) /*Adaptation tablette*/ 
@@ -384,3 +385,4 @@ label, #toggle
         margin-right: 9%;
     }
 }
+

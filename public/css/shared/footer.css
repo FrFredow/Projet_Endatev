@@ -59,14 +59,14 @@ footer > nav >hr  { /*Définition du soulignage des titres des catégories*/
     border-style: none;
   }
 
-@media screen and (min-width: 360px) and (max-width: 420px) /*Adaptation pour écran de téléphone*/ 
+@media screen and (min-width: 360px) and (max-width: 600px) /*Adaptation pour écran de téléphone*/ 
 {
     footer   {
         display: flex;
         flex-direction: row;
         background-color: #003a3a;
         font-family: "FjallaOne-Regular";
-        width: 109%;
+        width: 100%;
     }
 
     footer > nav {
@@ -82,8 +82,12 @@ footer > nav >hr  { /*Définition du soulignage des titres des catégories*/
     
     footer > nav > a    {
         color: white;
-        font-size: medium;
+        font-size: smaller;
         text-decoration: none;
+    }
+
+    footer > nav > h1 {
+        font-size: large;
     }
 }
 

@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="./../css/shared/footer.css">
 	<link rel="stylesheet" href="./../css/Accueil.css">
 	<link rel="stylesheet" href="./../css/shared/Carousel.css">
+	<script src="./js/carrousel.js" async></script>
 </head>
 
 <body>
@@ -127,36 +128,36 @@
 					<div class="reversed" class="card">
 						<img src="./../Ressource/Images/Accueil_Solutions.png" alt="Les solutions">
 						<div class="container">
-							<h4><a href="./Solutions.html">Venez découvrir nos projets en cours</a></h4>
+							<h4><a href="./html/Solutions.html">Venez découvrir nos projets en cours</a></h4>
               <hr>
-							<h3><a href="./Solutions.html">Solution</a></h3>
+							<h3><a href="./html/Solutions.html">Solution</a></h3>
 						</div>
 					</div>
 
 					<div class="card">
 						<img src="./../Ressource/Images/Accueil_Archives.png" alt="Les archives">
 						<div class="container">
-							<h3><a href="./Projet.html">Archives</a></h3>
+							<h3><a href="./html/Projet.html">Archives</a></h3>
               <hr>
-							<h4><a href="./Projet.html">Nos projets réalisés</a></h4>
+							<h4><a href="./html/Projet.html">Nos projets réalisés</a></h4>
 						</div>
 					</div>
 
 					<div class="reversed" class="card">
 						<img src="./../Ressource/Images/Accueil_Newsletter.png" alt="Les actualités">
 						<div class="container">
-							<h4><a href="./Presse.html">Soyez informé sur nos actualités du moment</a></h4>
+							<h4><a href="./html/Presse.html">Soyez informé sur nos actualités du moment</a></h4>
               <hr>
-							<h3><a href="./Presse.html">Newsletter</a></h3>
+							<h3><a href="./html/Presse.html">Newsletter</a></h3>
 						</div>
 					</div>
 
 					<div class="card">
 						<img src="./../Ressource/Images/Accueil_Compagnie.png" alt="La startup">
 						<div class="container">
-							<h3><a href="./Compagnie.html">Compagnie</a></h3>
+							<h3><a href="./html/Compagnie.html">Compagnie</a></h3>
               <hr>
-							<h4><a href="./Compagnie.html">Nos valeurs, nos choix, nos positions</a></h4>
+							<h4><a href="./html/Compagnie.html">Nos valeurs, nos choix, nos positions</a></h4>
 						</div>
 					</div>
 				</section>
@@ -166,12 +167,12 @@
 		<nav>
 			<h1>Navigation</h1>
 			<hr>
-			<a href="./../Projet.html">Projets</a>
-			<a href="./../Solutions.html">Solutions</a>
-			<a href="./../Presse.html"> Newsletter</a>
-			<a href="./../Emploi.html">Offres d'emploi</a>
+			<a href="./html/Projet.html">Projets</a>
+			<a href="./html/Solutions.html">Solutions</a>
+			<a href="./html/Presse.html"> Newsletter</a>
+			<a href="./html/Emploi.html">Offres d'emploi</a>
 			<a href="./../Emploi.html">Mentions légales</a>
-			<a href="./../Compagnie.html">Compagnie</a>
+			<a href="./html/Compagnie.html">Compagnie</a>
 		</nav>
 		<nav>
 			<h1>Contact</h1>
@@ -187,59 +188,5 @@
 		</nav>
 	</footer>
 </body>
-
-<script>
-    var slides = document.querySelectorAll('.slide');
-    var btns = document.querySelectorAll('.btn');
-    let currentSlide = 1;
-
-    // Javascript for image slider manual navigation
-    var manualNav = function(manual){
-      slides.forEach((slide) => {
-        slide.classList.remove('active');
-
-        btns.forEach((btn) => {
-          btn.classList.remove('active');
-        });
-      });
-
-      slides[manual].classList.add('active');
-      btns[manual].classList.add('active');
-    }
-
-    btns.forEach((btn, i) => {
-      btn.addEventListener("click", () => {
-        manualNav(i);
-        currentSlide = i;
-      });
-    });
-
-    // Javascript for image slider autoplay navigation
-    var repeat = function(activeClass){
-      let active = document.getElementsByClassName('active');
-      let i = 1;
-
-      var repeater = () => {
-	        setTimeout(function(){
-          [...active].forEach((activeSlide) => {
-            activeSlide.classList.remove('active');
-          });
-
-        slides[i].classList.add('active');
-        btns[i].classList.add('active');
-        i++;
-        if(slides.length == i){
-          i = 0;
-        }
-        if(i >= slides.length){
-          return;
-        }
-        repeater();
-      }, 10000);
-      }
-      repeater();
-    }
-    repeat();
-</script>
 
 </html>
