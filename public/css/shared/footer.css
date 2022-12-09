@@ -59,14 +59,14 @@ footer > nav >hr  { /*Définition du soulignage des titres des catégories*/
     border-style: none;
   }
 
-@media screen and (min-width: 360px) and (max-width: 420px) /*Adaptation pour écran de téléphone*/ 
+@media screen and (min-width: 360px) and (max-width: 600px) /*Adaptation pour écran de téléphone*/ 
 {
     footer   {
         display: flex;
         flex-direction: row;
         background-color: #003a3a;
         font-family: "FjallaOne-Regular";
-        width: 109%;
+        width: 100%;
     }
 
     footer > nav {
@@ -82,46 +82,26 @@ footer > nav >hr  { /*Définition du soulignage des titres des catégories*/
     
     footer > nav > a    {
         color: white;
-        font-size: medium;
+        font-size: smaller;
         text-decoration: none;
+    }
+
+    footer > nav > h1 {
+        font-size: large;
     }
 }
 
-@media screen and (min-width: 730px) and (max-width: 950px) /*Adaptation pour écran de tablette*/ 
+@media screen and (min-width: 730px) and (max-width: 1100px) /*Adaptation pour écran de tablette*/ 
 {
-    footer   {
-        display: flex;
-        flex-direction: row;
-        background-color: #003a3a;
-        font-family: "FjallaOne-Regular";
-        width: 189%;
-        height: 100%;
-    }
-
-    footer > nav {
-        display: flex;
-        flex-direction: column;
-        margin: 0%;
-        padding-left: 5%;
-        padding-right: 3%;
-        padding-top: 3%;
-        padding-bottom: 3%;
-        width: 80%;
-    }
-    
     footer > nav > a    {
         color: white;
-        font-size: xx-large;
+        font-size: medium;
         text-decoration: none;
     }
-    
-    footer > nav > iframe {
-        width: 100%;
-        height: 285px;
+
+    footer > nav > h1 {
+        font-size: large;
     }
-
-
-
 }
 
 @media screen and (min-width: 200px) and (max-width: 280px) /*Adaptation pour petit téléphone (galaxy fold)*/ 

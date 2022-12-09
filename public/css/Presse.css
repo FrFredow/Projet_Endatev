@@ -88,8 +88,12 @@ main  { /*Définition de la police et des marges dans le main*/
     background-color: #f2f2f2;
   }
 
-  @media screen and (min-width: 360px) and (max-width: 420px) /*Adaptation pour écran de téléphone*/
+  @media screen and (min-width: 360px) and (max-width: 729px) /*Adaptation pour écran de téléphone*/
 {
+  main {
+    margin-left: 3%;
+  }
+
   #newsletter {
     margin-top: 6%;
   }
@@ -97,98 +101,29 @@ main  { /*Définition de la police et des marges dans le main*/
     /* Ajout d'ombres sur la carte*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 100%;
+    width: 90%;
     margin: 6px;
+    margin-left: 3%;
   }
 
   #sect1 > #Hnews {
     /* Ajout d'ombres sur la carte*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 100%;
+    width: 90%;
     margin: 5px;
     height: 400px;
     overflow: hidden;
-  }
-
-  #sect2 > .card {
-    /* Ajout d'ombres sur la carte*/
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    margin: 6px;
-  }
-  
-}
-
-@media screen and (min-width: 730px) and (max-width: 950px) /*Adaptation pour écran de tablette*/
-{
-  #newsletter {
-    margin-top: 15%;
-    font-size: xxx-large;
-  }
-
-  hr  { /*Définition de la ligne sous le titre*/ 
-    width: 190%;
-    margin-left: 0%;
-    margin-bottom: 1%;
-    background-color: #025959;
-    height: 2px;
-    border-style: none;
-  }
-
-  main  {
-    font-family: "FjallaOne-Regular";
     margin-left: 3%;
-    margin-top: 3%;
-    margin-bottom: 3%;
   }
 
-  main > #sect1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 190%;
-  }
-
-  main > #sect2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 190%;
-  }
-  #sect1>* { /*Définition du nombre de colonne, taille de la flex box*/
-    flex: 1 1 160px;
-  }
-  #sect2>* {
-    flex: 1 auto;
-    }
-
-  #sect1 > #Hnews {
-    /* Ajout d'ombres sur la carte*/
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 30%;
-    margin: 5px;
-    height: 460px;
-    overflow: hidden;
-    font-size: x-large;
-  }
-
-  #sect1 > #Socmedia {
-    /* Ajout d'ombres sur la carte*/
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 35%;
-    margin: 6px;
-    font-size: x-large;
-  }
   #sect2 > .card {
     /* Ajout d'ombres sur la carte*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 38%;
+    width: 90%;
     margin: 6px;
+    margin-left: 3%;
   }
   
 }

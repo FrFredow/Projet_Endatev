@@ -155,26 +155,25 @@ hr  { /*Ligne en-dessous du titre*/
             transform: translateY(-.2rem);
   }
 
-  @media screen and (min-width: 360px) and (max-width: 420px) /*Adaptation écran de téléphone*/ 
+  @media screen and (min-width: 360px) and (max-width: 729px) /*Adaptation écran de téléphone*/ 
 {
   main {
-    margin-top: 5%;
+    margin-top: 10%;
   }
 
   .link-1 {
-    width: 100%;
+    width: 95%;
+    margin-left: 1%;
   }
 
   hr {
-    width: 100%;
+    width: 95%;
+    margin-left: 1%;
+  }
+
+  .container {
+    z-index: 10000;
   }
 
 }
 
-@media screen and (min-width: 730px) and (max-width: 950px) /*Adaptation tablette*/ 
-{
-  main {
-    margin-top: 15%;
-    width: 185%;
-  }
-}
