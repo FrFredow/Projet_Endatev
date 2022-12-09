@@ -120,7 +120,7 @@ section h3 { /*Définition du titre de la liste d'offre d'emplois*/
    
 }
 
-@media screen and (min-width: 360px) and (max-width: 600px) /*Adaptation écran de téléphone*/ 
+@media screen and (min-width: 360px) and (max-width: 729px) /*Adaptation écran de téléphone*/ 
 {
     main    {
         font-family: "FjallaOne-Regular";
