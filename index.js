@@ -12,4 +12,7 @@ app.get('/', function (req, res) {
     res.sendFile(__dirname + '/public/Accueil.html');
   });
 
+app.use((req,res, next) => {
+    res.status(404).sendFile(__dirname + '/public/html/Erreur_404.html')
+})
   
