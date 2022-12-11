@@ -1,13 +1,13 @@
 .img-slider{ /*Définiton du carousel (position, couleur)*/ 
   position: relative;
   width: 99%;
-  height: 800px;
+  height: 650px;
   margin: 10px;
-  margin-top: 20px;
+  margin-top: 0%;
   background: #1D212B;
   overflow: hidden;
   z-index: -2;
-  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.61);
+  box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.61);
 }
 
 .info {
@@ -31,7 +31,7 @@
   z-index: 1;
   border-radius: 5px;
   width: 100%;
-  transform: translate(0%, -20%);
+  transform: translate(0%, -25%);
 }
 
 .img-slider .slide .info{ /*Position de la zone d'écriture sur le carousel*/ 
@@ -60,9 +60,11 @@
 
 .navigation{ /*Position des boutons pour naviguer sur les différentes images*/ 
   z-index: 2;
-  position: absolute;
   display: flex;
-  bottom: -9%;
+  margin-top: -5%;
+  margin-left: 0%;
+  position: relative;
+  width: 10%;
   left: 50%;
   transform: translateX(-50%);
 }

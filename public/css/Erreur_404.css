@@ -1,13 +1,32 @@
+@font-face {
+    font-family: "FjallaOne-Regular";
+    src: local("FjallaOne Regular"),
+    local("FjallaOne-Regular"),
+    url(./../../Ressource/font/FjallaOne-Regular.ttf);
+font-weight: bold;
+   }
+
 #Erreur {
     margin-left: 35%;
+    margin-right: 35%;
     width: 30%;
-    margin-bottom: -5%;
+    margin-bottom: -2%;
+    
+}
+
+main > a {
+    font-family: "FjallaOne-Regular";
+    position: relative;
+    margin-left: 50%;
+    color: #025959;
+
 }
 
 @media screen and (min-width: 200px) and (max-width: 280px) /*Adaptation petit ecran */ 
 {
     #Erreur {
         margin-left: 0%;
+        margin-right: 0%;
         width: 100%;
     }
 }
@@ -16,6 +35,7 @@
 {
     #Erreur {
         margin-left: 0%;
+        margin-right: 0%;
         width: 100%;
     }
 }
@@ -25,6 +45,7 @@
 {
     #Erreur {
         margin-left: 0%;
+        margin-right: 0%;
         width: 100%;
     }
 }

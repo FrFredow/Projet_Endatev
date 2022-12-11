@@ -10,6 +10,14 @@
   "author": "Equipe Endatev (FR SE, Vincent, U...)",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "jquery": "^3.6.1",
+    "node-mailjet": "^5.1.1",
+    "nodejs-nodemailer-outlook": "^1.2.4",
+    "nodemailer": "^6.8.0",
+    "nodemailer-mailgun-transport": "^2.1.5",
+    "nodemailer-smtp-transport": "^2.4.2",
+    "xoauth2": "^1.2.0",
+    "zoho-node-mailer": "^1.0.6"
   }
 }

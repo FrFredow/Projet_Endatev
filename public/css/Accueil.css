@@ -4,7 +4,7 @@ main {
 
 #sect2 { /* Deuxième partie de la page d'accueil qui concerne les cartes de navigations du site web */
   margin: 0%;
-  margin-top: 3%;
+  margin-top: 5%;
 }
 
 #sect2 > .card { /*les cartes de navigation avec l'image sur la gauche*/
