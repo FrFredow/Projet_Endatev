@@ -3,15 +3,18 @@ const express = require("express");
 const app = express()
 const sendMail = require('./mail.js')
 
+//dossier statique ou il prend les fichiers.
 app.use(express.static('public'));
 
+// port + serveur sur ecoute 
 app.listen(80,() => console.log("server listening on localhost:80"));
 
-// GET method route
+// GET method route, toujours renvoyer vers l'accueil en cas ou l'url ne contient que un /
 app.get('/', function (req, res) {
-    res.sendFile(__dirname + '/public/html/Accueil.html');
+    res.sendFile(__dirname + '/public/Accueil.html');
 });
 
+// Mailing
 //data parsing
 app.use(express.urlencoded({
     extended: false
@@ -32,6 +35,7 @@ app.post('/email', (req, res) => {
     })
 });
 
+// Erreur 404
 app.use((req,res, next) => {
     res.status(404).sendFile(__dirname + '/public/html/Erreur_404.html')
 })
