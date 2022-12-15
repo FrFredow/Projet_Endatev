@@ -105,6 +105,10 @@ footer > nav >hr  { /*Définition du soulignage des titres des catégories*/
         text-decoration: none;
     }
 
+    footer > nav > a > p {
+        width: 45%;
+    }
+
     footer > nav > h1 {
         font-size: large;
     }

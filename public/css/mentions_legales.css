@@ -1,0 +1,43 @@
+h1 { /*Position du titre*/ 
+    margin: 0;
+    margin-top: 2%;
+    margin-left: 0%;
+    padding: 0;
+}
+
+hr  { /*Position de la barre en dessous du titre*/ 
+    border-style: none;
+    background-color: #025959;
+    height: 2px;
+    width: 92.5%;
+    margin-left: 0%;
+    margin-bottom: 3%;
+    margin-top: 0;
+}
+
+main  { /*Définition de la police et des marges dans le main*/
+    font-family: "FjallaOne-Regular";
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  p {
+    margin-right: 7%;
+  }
+
+  @media screen and (min-width: 360px) and (max-width: 729px) /*Adaptation écran de téléphone*/ 
+  {
+    main    {
+        margin-left: 5%;
+        margin-top: 6%;
+    }
+  }
+
+  @media screen and (min-width: 200px) and (max-width: 280px) /*Adaptation tablette*/ 
+{
+    main    {
+        margin-left: 5%;
+        margin-top: 6%;
+    }
+}
