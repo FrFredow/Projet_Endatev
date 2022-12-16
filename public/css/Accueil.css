@@ -19,7 +19,7 @@ main {
   transition: 0.3s;
   width: 60%;
   margin: 6px;
-  border-top: 2px solid #025959;
+  border-top: 3px solid #025959;
   background-color: #F3F3F3F3;
 }
 #sect2 > .reversed { /*les cartes de navigation avec l'image sur la droite*/
@@ -34,7 +34,7 @@ main {
   transition: 0.3s;
   width: 60%;
   margin: 6px;
-  border-top: 2px solid #025959;
+  border-top: 3px solid #025959;
   background-color: #F3F3F3F3;
 }
 #sect2 > .card > img   { /*images des cartes qui sont sur la gauche*/
@@ -202,13 +202,15 @@ main ul li { /*alignement des images dans le carousel*/
 }
 
 .reversed > .container > h3 {
-  position: relative;
+  position: absolute;
   left: 10%;
+  font-size: small;
 }
 .reversed > .container > h4 {
-  position: relative;
+  position: absolute;
   left: 0%;
   width: 40%;
+  font-size: small;
 }
 
 
@@ -296,8 +298,8 @@ main ul li { /*alignement des images dans le carousel*/
   position: absolute;
   left: 35%;
   background-color: #025959;
-  width: 3px;
-  height: 3em;
+  width: 2px;
+  height: 2em;
   border-style: none;
 }
 
@@ -309,13 +311,15 @@ main ul li { /*alignement des images dans le carousel*/
 }
 
 .reversed > .container > h3 {
-  position: relative;
-  left: 20%;
+  position: absolute;
+  left: 38%;
+  font-size: small;
 }
 .reversed > .container > h4 {
-  position: relative;
-  left: 0%;
-  width: 40%;
+  position: absolute;
+  left: 2%;
+  width: 34%;
+  font-size: small;
 }
 
 
@@ -336,22 +340,24 @@ main ul li { /*alignement des images dans le carousel*/
 }
 
 .card > .container > h3 {
-  position: relative;
-  left: 7%; 
+  position: absolute;
+  left: 35%;
+  font-size: small;
 }
 
 .card > .container > h4 {
-  position: relative;
-  left: 15%;
-  width: 40%; 
+  position: absolute;
+  left: 69%;
+  width: 30%;
+  font-size: small;
 }
 
 .card > .container > hr {
   position: absolute;
   left: 64%;
   background-color: #025959;
-  width: 3.1px;
-  height: 3em;
+  width: 2.1px;
+  height: 2em;
   border-style: none;
 }
 }
