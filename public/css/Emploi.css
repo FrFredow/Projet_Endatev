@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 main { /*Définition du main*/
-    margin-top: 3%;
+    margin-top: 1%;
     margin-left: 3%;
     /*Flex-box*/
     display: flex;
@@ -28,6 +28,25 @@ hr  { /*Ligne en-dessous du titre*/
   background-color: #025959;
   height: 2px;
   border-style: none;
+}
+
+/*barre de recherche */
+#searchbar{
+  margin-left: 65%;
+  padding:15px;
+  border-radius: 10px;
+}
+
+input[type=text] {
+   width: 30%;
+   -webkit-transition: width 0.15s ease-in-out;
+   transition: width 0.15s ease-in-out;
+}
+
+#list{
+ font-size:  1.5em;
+ margin-left: 90px;
+ margin-top: 2%;
 }
 
 
@@ -117,8 +136,8 @@ hr  { /*Ligne en-dessous du titre*/
     background-color: rgb(206, 206, 206);
     padding: 1.4rem 3.2rem;
     transition: .2s;
+    display: list-item;
     width: 92.5%;
-    margin-left: 2.5%;
     border-bottom: 2px solid #025959;
     margin-bottom: 0.5%;
   }
