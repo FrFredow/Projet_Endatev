@@ -48,29 +48,33 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 90%;
   padding: 0%;
-  margin-left: 5%;
 }
 
 .reversed > .container > h3 { /*Titre des cartes centrées*/
-  position: absolute;
-  left: 45%;
+  position:absolute;
+  left: 43%;
+  font-size: xx-large;
+  text-align: center;
 }
 .card > .container > h3 {
-  position: absolute;
-  left: 45%; 
+  position:absolute;
+  left: 43%;
+  font-size: xx-large;
+  text-align: center;
 }
 
 .reversed > .container > h4 { /*Descriptif des cartes sur le côté*/
   position: absolute;
   left: 8%;
   width: 25%;
+  font-size: x-large;
 }
 .card > .container > h4 {
   position: absolute;
   left: 71%;
   width: 25%; 
+  font-size: x-large;
 }
 
 /*Effets colorés sur les liens de navigation des cartes*/
