@@ -1,0 +1,151 @@
+hr  { /*Définition de la ligne sous le titre*/ 
+    width: 95%;
+    margin-left: 0%;
+    margin-bottom: 1%;
+    background-color: #025959;
+    height: 2px;
+    border-style: none;
+  }
+  
+  main  { /*Définition de la police et des marges dans le main*/
+    font-family: "FjallaOne-Regular";
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+  }
+
+h2 {
+    margin-top: 2%;
+}
+  
+  /* Quand la souris passe dessus renforce les ombrages*/
+  #sect1 > #Hnews:hover ,
+  #sect2 > .card:hover  {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    width: 90%;
+    padding: 5px;
+    margin-left: 1%;
+  }
+  
+  /*Section numéro 1*/
+  
+  #sect1 > #Hnews {
+    /* Ajout d'ombres sur la carte*/
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 94.5%;
+    margin: 5px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+  }
+  
+  #sect1 > #Hnews > img   { /*Taille de l'image dans la première carte*/
+    width: 90%;
+  }
+
+  a { /*enlever le soulignage*/
+    text-decoration: none;
+  }
+
+  #titre_en_cours { /*changement taille de police et espace du titre*/
+    font-size: 230%;
+    margin-top: 2%;
+  }
+
+  #en_cours { /*Changement texte description (taille, espacement)*/
+    margin-top: 3%;
+    font-size: 140%;
+    width: 95%;
+  }
+
+  .voir_plus { /*Changement texte voir plus (taille, espacement, couleur)*/
+    margin-top: 11%;
+    font-size: x-large;
+    color: #05A6A6;
+  }
+
+  a :hover {  /*couleur lors du passage de la souris*/
+    color: #89D9D9;
+  }
+ 
+  /*Section numéro 2*/
+  
+  #sect2 > .card {
+      /* Ajout d'ombres sur les cartes*/
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      width: 30%;
+      margin-right: 1.8%;
+      margin-top: 0.3%;
+      margin-left: 0.4%;
+    }
+
+  #sect2 > .card > .container > h4 { /*changement taille de police et espace du titre*/
+    margin-top: 1%;
+    font-size: larger;
+  }
+
+  #sect2 > .card > .container > p { /*Changement texte description (taille, espacement)*/
+    margin-top: 3%;
+    font-size: 105%;
+  }
+
+  #sect2 > .card > .container > a > .voir_plus { /*Changement texte voir plus (taille, espacement, couleur)*/
+    margin-top: 4%;
+    font-size: x-large;
+    color: #05A6A6;
+  }
+  
+    #sect2 > .card > img   { /*Taille de l'images sur les cartes*/
+      width: 100%;
+    }
+  
+    main > #sect2 , main > #sect1 { /*Définition de la flex-box pour les sections*/
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+    .card,#Socmedia,#Hnews { /*Definition de la bordure du bas de toutes les cartes*/
+      border-bottom: 2px solid #025959;
+      border-top: 2px solid #025959;
+      background-color: #f2f2f2;
+    }
+  
+    @media screen and (min-width: 360px) and (max-width: 729px) /*Adaptation pour écran de téléphone*/
+  {
+    main {
+      margin-left: 3%;
+    }
+  
+    #newsletter {
+      margin-top: 6%;
+    }
+  
+    #sect1 > #Hnews {
+      /* Ajout d'ombres sur la carte*/
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      width: 90%;
+      margin: 5px;
+      height: 400px;
+      overflow: hidden;
+      margin-left: 3%;
+    }
+  
+    #sect2 > .card {
+      /* Ajout d'ombres sur la carte*/
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      width: 90%;
+      margin: 6px;
+      margin-left: 3%;
+    }
+    
+  }
