@@ -1,0 +1,18 @@
+
+
+p {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: flex-end;
+    float: right;
+    width: 20%;
+    margin-right: 20%;
+}
+
+img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
