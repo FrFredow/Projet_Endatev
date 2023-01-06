@@ -8,6 +8,16 @@ hr  { /*Définition de la ligne sous le titre*/
   border-style: none;
 }
 
+main > section >hr {
+  width: 8%;
+  margin-left: 42%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  background-color: #025959;
+  height: 2px;
+  border-style: none;
+}
+
 main  { /*Définition de la police et des marges dans le main*/
   font-family: "FjallaOne-Regular";
   margin-left: 5%;
