@@ -15,8 +15,7 @@ $('form').on('submit', (e)=> {
         mobile,
         object,
         message
-    };
-
+    }
     $.post('/email', data, function() {
         console.log('Server received our data');
     });

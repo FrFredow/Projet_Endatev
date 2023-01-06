@@ -15,6 +15,7 @@
         <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
         <script src="/js/map.js" defer></script>
         <script src="/js/barre_de_recherche.js" async></script>
+        <script src="/js/changement_texte_pop_up.js" async></script>
     </head>
     <body>
         <header>
@@ -68,28 +69,61 @@
             <hr>
 
                 <!-- input tag -->
-            <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Search animals..">
+            <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Barre de recherche">
         <ol id='list'>
-            <a href="#modal-opened" class="link-1" id="modal-closed">Électricien</a>
+            <a href="#modal-opened" class="link-1" id="modal-closed">Électricien
+            <p class="texte_bouton_haut">Agen, Lot-et-Garonne (47)</p>
+            <p class="texte_bouton_millieu">Le 01 mars 2022</p>
+            <p class="texte_bouton_bas">En savoir plus ➕</p>
+            </a>
  
             <div class="container" id="modal-opened">
                 <div class="modal">
- 
                 <div class="details">
-                  <h1 class="title">Your Title</h1>
-                  <p class="description">Slogan will be here at this place.</p>
+                  <h1 class="title">Électricien</h1>
+                  <p class="categorie">Horaire</p>
+                  <p class="categorie">Rémunération</p>
+                  <p class="categorie">Avantages</p>
+                  <p class="categorie">Résumé</p>
+                  <a href="#" id="CV">Envoyer votre CV</a>
                 </div>
-             
-                <p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ex dicta maiores libero minus obcaecati iste optio, eius labore repellendus.</p>
-             
-                <button class="btn">Button &rarr;</button>
+                <hr id="separation">
+                <div id="pop-up-para">
+                    <p id="texte-changeant1">Test permier du nom </p>
+                </div>
              
                 <a href="#Header" class="link-2"></a>
             </div>
             </div>
         
-            <a href="#modal-opened" class="link-1" id="modal-closed">Technicien Industriel</a>
-            <div class="container" id="modal-opened">
+            <a href="#modal-opened2" class="link-1" id="modal-closed">Technicien Industriel
+                <p class="texte_bouton_haut">Agen, Lot-et-Garonne (47)</p>
+                <p class="texte_bouton_millieu">Le 30 juin 2022</p>
+                <p class="texte_bouton_bas">En savoir plus ➕</p>
+            </a>
+            <div class="container" id="modal-opened2">
+                <div class="modal">
+ 
+                <div class="details">
+                  <h1 class="title">Technicien Industriel</h1>
+                  <p class="description">Slogan will be here at this place.</p>
+                </div>
+             
+                <p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ex dicta maiores libero minus obcaecati iste optio, eius labore repellendus.</p>
+             
+                <button class="btn">Button &rarr;</button>
+             
+                <a href="#Header" class="link-2"></a>
+            </div>
+            </div>
+
+            <a href="#modal-opened3" class="link-1" id="modal-closed">Expert système réseaux H/F
+                <p class="texte_bouton_haut">Agen, Lot-et-Garonne (47)</p>
+                <p class="texte_bouton_millieu">Le 2 février 2022</p>
+                <p class="texte_bouton_bas">En savoir plus ➕</p>
+            </a>
+            
+            <div class="container" id="modal-opened3">
                 <div class="modal">
  
                 <div class="details">
@@ -104,6 +138,29 @@
                 <a href="#Header" class="link-2"></a>
             </div>
             </div>
+
+            <a href="#modal-opened4" class="link-1" id="modal-closed">Informaticien H/F
+                <p class="texte_bouton_haut">Agen, Lot-et-Garonne (47)</p>
+                <p class="texte_bouton_millieu">Le 31 janvier 2022</p>
+                <p class="texte_bouton_bas">En savoir plus ➕</p>
+            </a>
+            
+            <div class="container" id="modal-opened4">
+                <div class="modal">
+ 
+                <div class="details">
+                  <h1 class="title">Your Title</h1>
+                  <p class="description">Slogan will be here at this place.</p>
+                </div>
+             
+                <p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ex dicta maiores libero minus obcaecati iste optio, eius labore repellendus.</p>
+             
+                <button class="btn">Button &rarr;</button>
+             
+                <a href="#Header" class="link-2"></a>
+            </div>
+            </div>
+            
         </ol>
         </main>
         <footer>
