@@ -1,18 +1,52 @@
 
-
-p {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-self: flex-end;
-    float: right;
-    width: 20%;
-    margin-right: 20%;
+main    { /* Mise en page globale de la page */
+    font-family: "FjallaOne-Regular";
+    margin-left: 5%;
+    margin-top: 2%;
 }
 
-img {
+h1 { /*Position du titre*/ 
+    margin: 0;
+    margin-top: 2%;
+    padding: 0;
+}
+
+hr  { /*Position de la barre en dessous du titre*/ 
+    border-style: none;
+    background-color: #025959;
+    height: 2px;
+    width: 92.5%;
+    margin-left: 0%;
+    margin-bottom: 1%;
+    margin-top: 0;
+}
+
+main > section {
+    display: flex;
+    flex-direction: row;
+}
+
+main > section > p {
+    margin-left: 1%;
+    width: 50%;
+}
+
+main > img {
+    width:40%;
+}
+
+main > h2 {
+    margin-bottom: 1%;
+}
+
+main > article {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
+    width: 95%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+main > article > h3 , p {
+    margin-top:1%;
+    margin-bottom: 1%;
 }
