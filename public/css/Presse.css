@@ -47,7 +47,7 @@ main  { /*Définition de la police et des marges dans le main*/
   transition: 0.3s;
   width: 61%;
   margin: 5px;
-  height: 400px;
+  height: 460px;
   overflow: hidden;
 }
 
@@ -137,3 +137,12 @@ main  { /*Définition de la police et des marges dans le main*/
   }
   
 }
+
+@media screen and (min-width: 730px) and (max-width: 1100px) /*Adaptation tablette*/ 
+{
+  #sect2 { /* Deuxième partie de la page d'accueil qui concerne les cartes de navigations du site web */
+    margin: 0%;
+    margin-top: 5%;
+  }
+}
+

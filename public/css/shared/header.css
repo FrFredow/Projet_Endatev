@@ -276,6 +276,7 @@ label, #toggle
         background:  #F2F2F2;
         height: 50%;
         width: 90%;
+        border-radius: 1rem;
     }
 
         /* Position du texte contenu dans la puce */
@@ -323,5 +324,7 @@ label, #toggle
     header nav {
         width: 55%;
     }
+
+    
 }
 

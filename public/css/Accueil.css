@@ -20,6 +20,7 @@ main {
   margin: 6px;
   border-top: 3px solid #025959;
   background-color: #F3F3F3F3;
+  border-radius: 0.5rem;
 }
 #sect2 > .reversed { /*les cartes de navigation avec l'image sur la droite*/
   /* Add shadows to create the "card" effect */
@@ -34,6 +35,7 @@ main {
   margin: 6px;
   border-top: 3px solid #025959;
   background-color: #F3F3F3F3;
+  border-radius: 0.5rem;
 }
 #sect2 > .card > img   { /*images des cartes qui sont sur la gauche*/
   width: 33%;
@@ -174,6 +176,7 @@ main ul li { /*alignement des images dans le carousel*/
     margin: 6px;
     border-top: 2px solid #025959;
     background-color: #F3F3F3F3;
+    border-radius: 0.5rem;
   }
 
   .card > .container > h3>a,
@@ -227,6 +230,7 @@ main ul li { /*alignement des images dans le carousel*/
   margin: 6px;
   border-top: 2px solid #025959;
   background-color: #F3F3F3F3;
+  border-radius: 0.5rem;
 }
 
 .card > .container > h3 {
@@ -283,6 +287,7 @@ main ul li { /*alignement des images dans le carousel*/
     margin: 6px;
     border-top: 2px solid #025959;
     background-color: #F3F3F3F3;
+    border-radius: 0.5rem;
   }
 
   .card > .container > h3>a,
@@ -335,6 +340,7 @@ main ul li { /*alignement des images dans le carousel*/
   margin: 6px;
   border-top: 2px solid #025959;
   background-color: #F3F3F3F3;
+  border-radius: 0.5rem;
 }
 
 .card > .container > h3 {
