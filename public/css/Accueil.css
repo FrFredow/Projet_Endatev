@@ -21,6 +21,9 @@ main {
   border-top: 3px solid #025959;
   background-color: #F3F3F3F3;
   border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 1%;
+
 }
 #sect2 > .reversed { /*les cartes de navigation avec l'image sur la droite*/
   /* Add shadows to create the "card" effect */
@@ -36,6 +39,8 @@ main {
   border-top: 3px solid #025959;
   background-color: #F3F3F3F3;
   border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 1%;
 }
 #sect2 > .card > img   { /*images des cartes qui sont sur la gauche*/
   width: 33%;
@@ -53,28 +58,55 @@ main {
 
 .reversed > .container > h3 { /*Titre des cartes centrées*/
   position:absolute;
-  left: 43%;
-  font-size: xx-large;
+  left: 45%;
+  font-size: 2.1rem;
   text-align: center;
+  background: powderblue;
 }
+
 .card > .container > h3 {
   position:absolute;
   left: 43%;
-  font-size: xx-large;
+  font-size: 2.1rem;
   text-align: center;
+  background: antiquewhite;
 }
 
 .reversed > .container > h4 { /*Descriptif des cartes sur le côté*/
   position: absolute;
   left: 8%;
   width: 25%;
-  font-size: x-large;
+  font-size: 1.8rem;
 }
 .card > .container > h4 {
   position: absolute;
   left: 71%;
   width: 25%; 
-  font-size: x-large;
+  font-size: 1.8rem;
+}
+
+#titre3_placement {
+  left: 46%;
+}
+
+#titre1_placement {
+  left: 47%;
+}
+
+#titre1 {
+  margin-left: -15%;
+}
+
+#titre2 {
+  margin-left: 10%;
+}
+
+#titre3 {
+  margin-left: -15%;
+}
+
+#titre4 {
+  margin-left: 10%;
 }
 
 /*Effets colorés sur les liens de navigation des cartes*/
@@ -110,13 +142,13 @@ color: #05A6A6;
   position: absolute;
   left: 36%;
   background-color: #025959;
-  width: 2px;
+  width: 3px;
   height: 6em;
   border-style: none;
 }
 .card > .container > hr {
   position: absolute;
-  left: 64%;
+  left: 63.5%;
   background-color: #025959;
   width: 3px;
   height: 6em;
@@ -128,6 +160,11 @@ main ul li { /*alignement des images dans le carousel*/
 	display: inline-block;
 	border-radius: 3px;
 	font-size: 0;
+}
+
+#sect2 > .reversed:hover ,
+#sect2 > .card:hover  {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 @media screen and (min-height: 1300px)
@@ -315,7 +352,7 @@ main ul li { /*alignement des images dans le carousel*/
 
 .reversed > .container > h3 {
   position: absolute;
-  left: 38%;
+  left: 41%;
   font-size: small;
 }
 .reversed > .container > h4 {
@@ -323,6 +360,10 @@ main ul li { /*alignement des images dans le carousel*/
   left: 2%;
   width: 34%;
   font-size: small;
+}
+
+#titre1_placement {
+  left: 43%;
 }
 
 
@@ -363,6 +404,10 @@ main ul li { /*alignement des images dans le carousel*/
   width: 2.1px;
   height: 2em;
   border-style: none;
+}
+
+#titre3_placement {
+  left: 40%;
 }
 }
 
