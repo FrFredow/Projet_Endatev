@@ -20,7 +20,7 @@ main { /*Définition du main*/
     font-family: "FjallaOne-Regular";
   }
 
-h1 { /*Définition du titre*/
+main > h1 { /*Définition du titre*/
   margin-left: 3%;
   color: #025959 ;
 }
@@ -218,13 +218,12 @@ input[type=text] {
   .link-2 { /*Renvoie sur la page lorsque la pop-up est fermée*/ 
     width: 4rem;
     height: 4rem;
-    border: 1px solid hsla(0, 0%, 100%, .4);
     border-radius: 100rem;
     color: inherit;
     font-size: 2.2rem;
     position: absolute;
-    top: 2rem;
-    right: 2rem;
+    top: 1rem;
+    right: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -272,7 +271,7 @@ input[type=text] {
 
   .link-1 {
     width: 95%;
-    margin-left: 0%;
+    margin-left: -1.5%;
     margin-top: 2%;
   }
 
@@ -300,6 +299,12 @@ input[type=text] {
   }
 
   /*Définition pop-up*/
+
+  /*Définition de la croix pour la fermeture de la pop-up*/
+  .link-2 {
+    right: 0rem;
+    top: 1rem;
+  }
 
   /*définition du titre*/
   .title {
@@ -342,12 +347,13 @@ input[type=text] {
 
   /*taille de la zone pour le texte*/
   #pop-up-para {
-    width: 50%;
+    width: 67%;
+    margin-top: 10%;
   }
 
   /*taille bouton envoyer CV*/
   #CV {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
 
