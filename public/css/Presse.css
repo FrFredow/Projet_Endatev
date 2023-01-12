@@ -25,6 +25,17 @@ main  { /*Définition de la police et des marges dans le main*/
   margin-bottom: 3%;
 }
 
+main > section > div > div > p > a { /*textes sur les cartes articles*/
+  text-decoration: none;
+  color:black;
+  font-size: small;
+}
+
+main > section > div > div > h4 { /*titre des articles sur les cartes*/
+  font-size: large;
+  color: #025959;
+}
+
 /* Quand la souris passe dessus renforce les ombrages*/
 #sect1 > #Hnews:hover ,
 #sect1 > #Socmedia:hover,
@@ -51,13 +62,14 @@ main  { /*Définition de la police et des marges dans le main*/
   overflow: hidden;
 }
 
-#sect1 > #Hnews > img   { /*Taille de l'image dans la première carte*/
-  width: 100%;
+#sect1 > #Hnews > a > img  { /*Taille de l'image dans la première carte*/
+  width: auto;
+  height: 70%;
+  overflow: hidden;
 }
 
 
-#sect1 > #Socmedia {
-  /* Ajout d'ombres sur la carte*/
+#sect1 > #Socmedia { /* Ajout d'ombres sur la carte*/
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 30%;
@@ -71,6 +83,7 @@ main  { /*Définition de la police et des marges dans le main*/
 
 #sect1 > #Socmedia > h2   { /*Marge du titre de l'article*/
   margin-left: 2%;
+  color: #025959;
 }
 
 /*Section numéro 2*/
@@ -83,8 +96,10 @@ main  { /*Définition de la police et des marges dans le main*/
     margin: 6px;
   }
 
-  #sect2 > .card > img   { /*Taille de l'images sur les cartes*/
+  #sect2 > .card > a > img  { /*Taille de l'images sur les cartes*/
     width: 100%;
+    height: 60%;
+    overflow: hidden;
   }
 
   main > #sect2 , main > #sect1 { /*Définition de la flex-box pour les sections*/
