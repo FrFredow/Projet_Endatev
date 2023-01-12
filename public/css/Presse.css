@@ -41,6 +41,7 @@ main > section > div > div > h4 { /*titre des articles sur les cartes*/
 #sect1 > #Socmedia:hover,
 #sect2 > .card:hover  {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
 }
 
 /* Add some padding inside the card container */
@@ -94,6 +95,7 @@ main > section > div > div > h4 { /*titre des articles sur les cartes*/
     transition: 0.3s;
     width: 30%;
     margin: 6px;
+    overflow: hidden;
   }
 
   #sect2 > .card > a > img  { /*Taille de l'images sur les cartes*/

@@ -263,7 +263,105 @@ input[type=text] {
   color: #05A6A6;
 }
 
-  @media screen and (min-width: 360px) and (max-width: 729px) /*Adaptation écran de téléphone*/ 
+@media screen and (min-width: 280px) and (max-width: 390px) /*Adaptation écran de téléphone*/ 
+{
+  main {
+    margin-top: 10%;
+  }
+
+  .link-1 {
+    width: 95%;
+    margin-left: -1.5%;
+    margin-top: 2%;
+  }
+
+  hr {
+    width: 95%;
+    margin-left: 1%;
+  }
+
+  .container {
+    z-index: 10000;
+  }
+  
+  #searchbar{
+    margin-left: 45%;
+    margin-top: 2%;
+    width: 50%;
+  }
+
+  .modal {
+    padding: 2rem 1rem;
+  }
+
+  .details {
+    width: 28%;
+  }
+
+  /*Définition pop-up*/
+
+  .texte_bouton_bas {
+    font-size: 1.6rem;
+  }
+
+  /*Définition de la croix pour la fermeture de la pop-up*/
+  .link-2 {
+    right: 0rem;
+    top: 1rem;
+  }
+
+  /*définition du titre*/
+  .title {
+    font-size: 1.3rem;
+  }
+
+  /*Taille du texte des catégories*/
+  .categorie {
+    font-size: 1rem;
+  }
+
+  .categorie2 {
+    font-size: 1rem;
+  }
+
+  .categorie3 {
+    font-size: 1rem;
+  }
+
+  .categorie4 {
+    font-size: 1rem;
+  }
+
+  /*Texte de la pop-up*/
+  #texte-changeant1 {
+    font-size: 1rem;
+  }
+
+  #texte-changeant2 {
+    font-size: 1rem;
+  }
+
+  #texte-changeant3 {
+    font-size: 1rem;
+  }
+
+  #texte-changeant4 {
+    font-size: 1rem;
+  }
+
+  /*taille de la zone pour le texte*/
+  #pop-up-para {
+    width: 67%;
+    margin-top: 10%;
+  }
+
+  /*taille bouton envoyer CV*/
+  #CV {
+    font-size: 1rem;
+  }
+}
+
+  @media screen and (min-width: 390px) and (max-width: 729px) /*Adaptation écran de téléphone*/ 
 {
   main {
     margin-top: 10%;
