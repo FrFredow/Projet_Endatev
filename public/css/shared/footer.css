@@ -65,6 +65,55 @@ footer > nav >hr  { /*Définition du soulignage des titres des catégories*/
     border-style: none;
   }
 
+@media screen and (min-width: 280px) and (max-width: 390px) /*Adaptation écran de téléphone*/ 
+{
+    footer   {
+        display: flex;
+        flex-direction: row;
+        background-color: #003a3a;
+        font-family: "FjallaOne-Regular";
+        width: 100%;
+    }
+
+    footer > nav {
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 50%;
+    }
+
+    footer > nav > iframe { /*Taille de la mini-map*/ 
+        width: 120%;
+        height: 88%;
+        margin-left: -20%;
+    }
+
+    #texte_map {
+        color: white;
+        font-size: smaller;
+        text-decoration: none;
+        margin-left: -20%;
+    }
+    
+    footer > nav > a    {
+        color: white;
+        font-size: smaller;
+        text-decoration: none;
+    }
+
+    footer > nav > a > p {
+        width: 45%;
+    }
+
+    footer > nav > h1 {
+        font-size: large;
+    }
+}
+
 @media screen and (min-width: 360px) and (max-width: 600px) /*Adaptation pour écran de téléphone*/ 
 {
     footer   {

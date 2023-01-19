@@ -60,7 +60,7 @@ main > section > div > div > h4 { /*titre des articles sur les cartes*/
   width: 61%;
   margin: 5px;
   height: 460px;
-  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 #sect1 > #Hnews > a > img  { /*Taille de l'image dans la première carte*/

@@ -291,7 +291,7 @@ main ul li { /*alignement des images dans le carousel*/
 }
 }
 
-@media screen and (min-width: 280px) and (max-width: 390px) /*Adaptation écran de téléphone*/ 
+@media screen and (min-width: 280px) and (max-width: 300px) /*Adaptation écran de téléphone*/ 
 {
   .card-shadow-1 {
     margin: 10px 0px;
@@ -366,6 +366,138 @@ main ul li { /*alignement des images dans le carousel*/
   left: 43%;
 }
 
+#titre4 {
+  margin-left: 15%;
+}
+
+
+#sect2 > .card {
+  /* Add shadows to create the "card" effect */
+  position: relative;
+  left: 7%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: larger;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 95%;
+  margin: 6px;
+  border-top: 2px solid #025959;
+  background-color: #F3F3F3F3;
+  border-radius: 0.5rem;
+}
+
+.card > .container > h3 {
+  position: absolute;
+  left: 35%;
+  font-size: small;
+}
+
+.card > .container > h4 {
+  position: absolute;
+  left: 69%;
+  width: 30%;
+  font-size: small;
+}
+
+.card > .container > hr {
+  position: absolute;
+  left: 64%;
+  background-color: #025959;
+  width: 2.1px;
+  height: 2em;
+  border-style: none;
+}
+
+#titre3_placement {
+  left: 42.5%;
+}
+
+#titre4_placement {
+  left: 36%;
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 390px) /*Adaptation écran de téléphone*/ 
+{
+  .card-shadow-1 {
+    margin: 10px 0px;
+    height: 180px;
+    width: 100%;
+    position: absolute;
+  }
+
+  .cards {
+    width: 92%;
+    margin-left: -2%;
+  }
+
+  #sect2 {
+    margin: 0%;
+    margin-top: 5%;
+  }
+
+  #sect2 > .reversed {
+    /* Add shadows to create the "card" effect */
+    position: relative;
+    left: 7%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: larger;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 95%;
+    margin: 6px;
+    border-top: 2px solid #025959;
+    background-color: #F3F3F3F3;
+    border-radius: 0.5rem;
+  }
+
+  .card > .container > h3>a,
+.reversed > .container > h3>a  {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+}
+
+.reversed > .container > hr {
+  position: absolute;
+  left: 35%;
+  background-color: #025959;
+  width: 2px;
+  height: 2em;
+  border-style: none;
+}
+
+.card > .container > h4>a,
+.reversed > .container > h4>a  {
+  text-decoration: none;
+  color: black;
+  font-size: 0.6rem;
+}
+
+.reversed > .container > h3 {
+  position: absolute;
+  left: 41%;
+  font-size: small;
+}
+.reversed > .container > h4 {
+  position: absolute;
+  left: 2%;
+  width: 34%;
+  font-size: small;
+}
+
+#titre1_placement {
+  left: 43%;
+}
+
+#titre4 {
+  margin-left: 15%;
+}
+
 
 #sect2 > .card {
   /* Add shadows to create the "card" effect */
@@ -415,7 +547,7 @@ main ul li { /*alignement des images dans le carousel*/
 }
 }
 
-@media screen and (min-width: 390px) and (max-width: 600px) /*Adaptation écran de téléphone*/ 
+@media screen and (min-width: 390px) and (max-width: 500px) /*Adaptation écran de téléphone*/ 
 {
   .card-shadow-1 {
     margin: 10px 0px;
@@ -490,6 +622,10 @@ main ul li { /*alignement des images dans le carousel*/
   left: 43%;
 }
 
+#titre4 {
+  margin-left: 8%;
+}
+
 
 #sect2 > .card {
   /* Add shadows to create the "card" effect */
@@ -510,7 +646,7 @@ main ul li { /*alignement des images dans le carousel*/
 
 .card > .container > h3 {
   position: absolute;
-  left: 35%;
+  left: 37%;
   font-size: small;
 }
 
@@ -535,8 +671,394 @@ main ul li { /*alignement des images dans le carousel*/
 }
 }
 
+@media screen and (min-width: 500px) and (max-width: 700px) /*Adaptation écran de téléphone*/ 
+{
+  .card-shadow-1 {
+    margin: 10px 0px;
+    height: 180px;
+    width: 100%;
+    position: absolute;
+  }
 
-@media screen and (min-width: 730px) and (max-width: 1100px) /*Adaptation tablette*/ 
+  .cards {
+    width: 92%;
+    margin-left: -2%;
+  }
+
+  #sect2 {
+    margin: 0%;
+    margin-top: 5%;
+  }
+
+  #sect2 > .reversed {
+    /* Add shadows to create the "card" effect */
+    position: relative;
+    left: 7%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: larger;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 95%;
+    margin: 6px;
+    border-top: 2px solid #025959;
+    background-color: #F3F3F3F3;
+    border-radius: 0.5rem;
+  }
+
+  .card > .container > h3>a,
+.reversed > .container > h3>a  {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.reversed > .container > hr {
+  position: absolute;
+  left: 35%;
+  background-color: #025959;
+  width: 2px;
+  height: 2em;
+  border-style: none;
+}
+
+.card > .container > h4>a,
+.reversed > .container > h4>a  {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+}
+
+.reversed > .container > h3 {
+  position: absolute;
+  left: 41%;
+  font-size: small;
+}
+.reversed > .container > h4 {
+  position: absolute;
+  left: 2%;
+  width: 34%;
+  font-size: small;
+}
+
+#titre1_placement {
+  left: 43%;
+}
+
+#titre4 {
+  margin-left: 15%;
+}
+
+
+#sect2 > .card {
+  /* Add shadows to create the "card" effect */
+  position: relative;
+  left: 7%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: larger;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 95%;
+  margin: 6px;
+  border-top: 2px solid #025959;
+  background-color: #F3F3F3F3;
+  border-radius: 0.5rem;
+}
+
+.card > .container > h3 {
+  position: absolute;
+  left: 37%;
+  font-size: small;
+}
+
+.card > .container > h4 {
+  position: absolute;
+  left: 69%;
+  width: 30%;
+  font-size: small;
+}
+
+.card > .container > hr {
+  position: absolute;
+  left: 64%;
+  background-color: #025959;
+  width: 2.1px;
+  height: 2em;
+  border-style: none;
+}
+
+#titre3_placement {
+  left: 42.5%;
+}
+
+#titre4_placement {
+  left: 38%;
+}
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px) /*Adaptation tablette*/ 
+{
+  .card-shadow-1 {
+    margin: 10px 0px;
+    height: 180px;
+    width: 100%;
+    position: absolute;
+  }
+
+  .cards {
+    width: 92%;
+    margin-left: -2%;
+  }
+
+  #sect2 {
+    margin: 0%;
+    margin-top: 6%;
+  }
+
+  #sect2 > .reversed {
+    /* Add shadows to create the "card" effect */
+    position: relative;
+    left: 7%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: larger;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 95%;
+    margin: 6px;
+    border-top: 2px solid #025959;
+    background-color: #F3F3F3F3;
+    border-radius: 0.5rem;
+  }
+
+  .card > .container > h3>a,
+.reversed > .container > h3>a  {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.reversed > .container > hr {
+  position: absolute;
+  left: 35%;
+  background-color: #025959;
+  width: 2px;
+  height: 2em;
+  border-style: none;
+}
+
+.card > .container > h4>a,
+.reversed > .container > h4>a  {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.reversed > .container > h3 {
+  position: absolute;
+  left: 41%;
+  font-size: small;
+}
+.reversed > .container > h4 {
+  position: absolute;
+  left: 2%;
+  width: 34%;
+  font-size: small;
+}
+
+#titre1_placement {
+  left: 43%;
+}
+
+#titre4 {
+  margin-left: 15%;
+}
+
+
+#sect2 > .card {
+  /* Add shadows to create the "card" effect */
+  position: relative;
+  left: 7%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: larger;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 95%;
+  margin: 6px;
+  border-top: 2px solid #025959;
+  background-color: #F3F3F3F3;
+  border-radius: 0.5rem;
+}
+
+.card > .container > h3 {
+  position: absolute;
+  left: 37%;
+  font-size: small;
+}
+
+.card > .container > h4 {
+  position: absolute;
+  left: 69%;
+  width: 30%;
+  font-size: small;
+}
+
+.card > .container > hr {
+  position: absolute;
+  left: 64%;
+  background-color: #025959;
+  width: 2.1px;
+  height: 2em;
+  border-style: none;
+}
+
+#titre3_placement {
+  left: 42.5%;
+}
+
+#titre4_placement {
+  left: 39%;
+}
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) /*Adaptation tablette*/ 
+{
+  .card-shadow-1 {
+    margin: 10px 0px;
+    height: 180px;
+    width: 100%;
+    position: absolute;
+  }
+
+  .cards {
+    width: 92%;
+    margin-left: -2%;
+  }
+
+  #sect2 {
+    margin: 0%;
+    margin-top: 4%;
+  }
+
+  #sect2 > .reversed {
+    /* Add shadows to create the "card" effect */
+    position: relative;
+    left: 8.3%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: larger;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 95%;
+    margin: 6px;
+    border-top: 2px solid #025959;
+    background-color: #F3F3F3F3;
+    border-radius: 0.5rem;
+  }
+
+  .card > .container > h3>a,
+.reversed > .container > h3>a  {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.reversed > .container > hr {
+  position: absolute;
+  left: 35%;
+  background-color: #025959;
+  width: 2px;
+  height: 2em;
+  border-style: none;
+}
+
+.card > .container > h4>a,
+.reversed > .container > h4>a  {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.reversed > .container > h3 {
+  position: absolute;
+  left: 41%;
+  font-size: small;
+}
+.reversed > .container > h4 {
+  position: absolute;
+  left: 2%;
+  width: 34%;
+  font-size: small;
+}
+
+#titre1_placement {
+  left: 43%;
+}
+
+#titre4 {
+  margin-left: 15%;
+}
+
+
+#sect2 > .card {
+  /* Add shadows to create the "card" effect */
+  position: relative;
+  left: 8.3%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: larger;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 95%;
+  margin: 6px;
+  border-top: 2px solid #025959;
+  background-color: #F3F3F3F3;
+  border-radius: 0.5rem;
+}
+
+.card > .container > h3 {
+  position: absolute;
+  left: 37%;
+  font-size: small;
+}
+
+.card > .container > h4 {
+  position: absolute;
+  left: 69%;
+  width: 30%;
+  font-size: small;
+}
+
+.card > .container > hr {
+  position: absolute;
+  left: 64%;
+  background-color: #025959;
+  width: 2.1px;
+  height: 2em;
+  border-style: none;
+}
+
+#titre3_placement {
+  left: 42.5%;
+}
+
+#titre4_placement {
+  left: 39%;
+}
+}
+
+
+
+
+@media screen and (min-width: 800px) and (max-width: 1100px) /*Adaptation tablette*/ 
 {
   #sect2 { /* Deuxième partie de la page d'accueil qui concerne les cartes de navigations du site web */
     margin: 0%;
